@@ -26,3 +26,15 @@ Thumbs.db
 *.tmp
 *.log
 *.bak
+
+# Output files
+output/
+workdir/
+temp_slides/
+*.pptx
+*.pdf
+
+# Archives
+*.zip
+*.tar.gz
+*.rar
