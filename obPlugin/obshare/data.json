@@ -1,0 +1,86 @@
+{
+  "appId": "/8jWYEx+4JiABkR93izWCTJuxb7caGELFLtEUsDtXlB3xKWBGxY18eZavC0z4GpK",
+  "appSecret": "B52iwwg+/eOnQnb8gkz+rodon7zURblyKi0Wf8Tq9mMYDvNY+3I0EvodkJZlaURYKvg8h4GXpAVSu6vt",
+  "folderToken": "ctEBTqggj5l57HuaiOl8C1FmoIfjD0uGGOhGgAD4nummyakTjhsjY7zDSuX2nxGtU2wjiggecA==",
+  "userId": "sTgIIvpMXovsxYmAn8gwyIvm3Rx687VFjtgTXw4gRgRkxYF1",
+  "uploadHistory": [
+    {
+      "title": "联通云-openclaw迁移协作清单",
+      "url": "https://qcn2ioe55rkm.feishu.cn/docx/BlL3d7qsFoxiisxsObacSzhYnQb",
+      "uploadTime": "2026-03-31 16:23",
+      "docToken": "BlL3d7qsFoxiisxsObacSzhYnQb"
+    },
+    {
+      "title": "3月在售的coding套餐选购【guest】",
+      "url": "https://qcn2ioe55rkm.feishu.cn/docx/EoOKdjADFop7AfxhRvach1TYnHU",
+      "uploadTime": "2026-03-15 10:11",
+      "docToken": "EoOKdjADFop7AfxhRvach1TYnHU",
+      "permissions": {
+        "isPublic": true,
+        "allowCopy": true,
+        "allowCreateCopy": true
+      }
+    },
+    {
+      "title": "【配置ryan】clawm命令 +  配置",
+      "url": "https://qcn2ioe55rkm.feishu.cn/docx/WBogdoHWOoXEb3xITGtcRZl2nKb",
+      "uploadTime": "2026-03-11 11:18",
+      "docToken": "WBogdoHWOoXEb3xITGtcRZl2nKb",
+      "permissions": {
+        "isPublic": true,
+        "allowCopy": false,
+        "allowCreateCopy": false
+      }
+    },
+    {
+      "title": "📋 EvoMap 发布问题完整解决方案",
+      "url": "https://qcn2ioe55rkm.feishu.cn/docx/L9UOd901BojI0nxU1MjccDT8nCb",
+      "uploadTime": "2026-03-10 22:17",
+      "docToken": "L9UOd901BojI0nxU1MjccDT8nCb",
+      "permissions": {
+        "isPublic": false,
+        "allowCopy": false,
+        "allowCreateCopy": false
+      }
+    },
+    {
+      "title": "Openclaw的落地基座",
+      "url": "https://qcn2ioe55rkm.feishu.cn/docx/RwlrdsTXzokeFnxWpD9c8fACnAb",
+      "uploadTime": "2026-03-08 22:32",
+      "docToken": "RwlrdsTXzokeFnxWpD9c8fACnAb",
+      "permissions": {
+        "isPublic": false,
+        "allowCopy": false,
+        "allowCreateCopy": false
+      }
+    },
+    {
+      "title": "拒绝二开，联通云0成本部署原版openClaw完整指南 1",
+      "url": "https://qcn2ioe55rkm.feishu.cn/docx/D5kTd1jC5o07T6xlRTncnve0nA7",
+      "uploadTime": "2026-03-07 23:41",
+      "docToken": "D5kTd1jC5o07T6xlRTncnve0nA7",
+      "permissions": {
+        "isPublic": true,
+        "allowCopy": false,
+        "allowCreateCopy": false
+      }
+    },
+    {
+      "title": "万字长文和逐步贴图！文科小白在2核2G阿里云成功部署OpenClaw的踩坑记录",
+      "url": "https://qcn2ioe55rkm.feishu.cn/docx/IqW8dIyo2oKiFgxMm29cVdrSnlf",
+      "uploadTime": "2026-03-05 12:24",
+      "docToken": "IqW8dIyo2oKiFgxMm29cVdrSnlf",
+      "permissions": {
+        "isPublic": true,
+        "allowCopy": true,
+        "allowCreateCopy": false
+      }
+    }
+  ],
+  "uploadCount": 7,
+  "agreedToTerms": true,
+  "apiCallCount": 261,
+  "lastResetDate": "2026-03",
+  "enableDoubleLinkMode": true,
+  "debugLoggingEnabled": true
+}

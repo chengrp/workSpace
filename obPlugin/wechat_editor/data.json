@@ -1,0 +1,2348 @@
+{
+  "backgroundId": "",
+  "templateId": "wechat-tech",
+  "fontFamily": "-apple-system",
+  "fontSize": 16,
+  "contentPadding": 33,
+  "templates": [
+    {
+      "id": "default",
+      "name": "默认模板",
+      "styles": {
+        "container": "",
+        "title": {
+          "h1": {
+            "base": "margin: 32px 0 0; font-size: 2em; letter-spacing: -0.02em; line-height: 1.5;",
+            "content": "font-weight: bold; color: #2c3e50;",
+            "after": ""
+          },
+          "h2": {
+            "base": "margin: 28px 0 0; font-size: 1.5em; letter-spacing: -0.01em; line-height: 1.5;",
+            "content": "font-weight: bold; color: #34495e;",
+            "after": ""
+          },
+          "h3": {
+            "base": "margin: 24px 0 0; font-size: 1.25em; line-height: 1.5;",
+            "content": "font-weight: bold; color: #3d566e;",
+            "after": ""
+          },
+          "base": {
+            "base": "margin: 20px 0 0; font-size: 1em; line-height: 1.5;",
+            "content": "font-weight: bold; color: #47637f;",
+            "after": ""
+          }
+        },
+        "paragraph": "line-height: 1.8; margin-top: 1em; font-size: 1em; color: #4a4a4a;",
+        "list": {
+          "container": "padding-left: 32px; color: #4a4a4a;",
+          "item": " font-size: 1em; color: #4a4a4a; line-height: 1.8;",
+          "taskList": "list-style: none; font-size: 1em; color: #4a4a4a; line-height: 1.8;"
+        },
+        "code": {
+          "header": {
+            "container": "margin-bottom: 0; display: flex; gap: 6px; padding: 10px 14px; background: rgba(40, 40, 40, 0.85); backdrop-filter: blur(20px) saturate(180%); -webkit-backdrop-filter: blur(20px) saturate(180%); border-radius: 12px 12px 0 0; border: 1px solid rgba(0, 0, 0, 0.1); border-bottom: none;",
+            "dot": "width: 12px; height: 12px; border-radius: 50%;",
+            "colors": [
+              "#ff5f56",
+              "#ffbd2e",
+              "#27c93f"
+            ]
+          },
+          "block": "background: #f5f5f5; color: #333; border-radius: 0 0 12px 12px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04), 0 8px 24px rgba(0, 0, 0, 0.06); border: 1px solid rgba(0, 0, 0, 0.06); border-top: none; margin: 1.2em 0; padding: 20px 18px 16px 18px; overflow-x: auto;",
+          "inline": "background: #f8f8f8; padding: 2px 6px; border-radius: 4px; color: #333; font-size: 14px; border: 1px solid #eee;"
+        },
+        "quote": "border-left: 4px solid #e0e0e0; border-radius: 6px; padding: 10px 10px; background: #f6f8fa; margin: 0.8em 0; color: #6a737d; font-style: italic; word-wrap: break-word;",
+        "image": "max-width: 100%; height: auto; margin: 1em auto; display: block;",
+        "link": "color: #e0e0e0; text-decoration: none; border-bottom: 1px solid #e0e0e0;",
+        "emphasis": {
+          "strong": "font-weight: bold; color: #4a4a4a;",
+          "em": "font-style: italic; color: #4a4a4a;",
+          "del": "text-decoration: line-through; color: #4a4a4a;"
+        },
+        "table": {
+          "container": "width: 100%; margin: 1em 0; border-collapse: collapse; border: 1px solid #e1e4e8;",
+          "header": "background: #f6f8fa; font-weight: bold; color: #4a4a4a; border-bottom: 2px solid #e1e4e8; font-size: 1em;",
+          "cell": "border: 1px solid #f0f0f0; padding: 8px; color: #4a4a4a; font-size: 1em;"
+        },
+        "hr": "border: none; border-top: 1px solid #f0f0f0; margin: 20px 0;",
+        "footnote": {
+          "ref": "color: #e0e0e0; text-decoration: none; font-size: 0.9em;",
+          "backref": "color: #e0e0e0; text-decoration: none; font-size: 0.9em;"
+        }
+      },
+      "isPreset": true,
+      "isVisible": true
+    },
+    {
+      "id": "minimal",
+      "name": "极简主题",
+      "styles": {
+        "container": "",
+        "title": {
+          "h1": {
+            "base": "margin: 32px 0 0; font-size: 2em; letter-spacing: -0.02em; line-height: 1.5; border-bottom: 1px solid rgba(0,0,0,0.1);",
+            "content": "font-weight: bold; color: #000000;",
+            "after": ""
+          },
+          "h2": {
+            "base": "margin: 28px 0 0; font-size: 1.5em; letter-spacing: -0.01em; line-height: 1.5;",
+            "content": "font-weight: bold; color: #262626;",
+            "after": ""
+          },
+          "h3": {
+            "base": "margin: 24px 0 0; font-size: 1.25em; line-height: 1.5;",
+            "content": "font-weight: bold; color: #404040;",
+            "after": ""
+          },
+          "base": {
+            "base": "margin: 20px 0 0; font-size: 1em; line-height: 1.5;",
+            "content": "font-weight: bold; color: #595959;",
+            "after": ""
+          }
+        },
+        "paragraph": "line-height: 1.8; margin-top: 1em; font-size: 1em; color: #4a4a4a;",
+        "list": {
+          "container": "padding-left: 32px; color: #4a4a4a;",
+          "item": "font-size: 1em; color: #4a4a4a; line-height: 1.8;",
+          "taskList": "list-style: none; font-size: 1em; color: #4a4a4a; line-height: 1.8;"
+        },
+        "code": {
+          "header": {
+            "container": "margin-bottom: 0; display: flex; gap: 6px; padding: 10px 14px; background: rgba(40, 40, 40, 0.85); backdrop-filter: blur(20px) saturate(180%); -webkit-backdrop-filter: blur(20px) saturate(180%); border-radius: 12px 12px 0 0; border: 1px solid rgba(0, 0, 0, 0.1); border-bottom: none;",
+            "dot": "width: 12px; height: 12px; border-radius: 50%;",
+            "colors": [
+              "#ff5f56",
+              "#ffbd2e",
+              "#27c93f"
+            ]
+          },
+          "block": "background: #f5f5f5; color: #333; border-radius: 0 0 12px 12px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04), 0 8px 24px rgba(0, 0, 0, 0.06); border: 1px solid rgba(0, 0, 0, 0.06); border-top: none; margin: 1.2em 0; padding: 20px 18px 16px 18px; overflow-x: auto;",
+          "inline": "background: #fafafa; padding: 2px 6px; border-radius: 4px; color: #333; font-size: 14px; border: 1px solid #eee;"
+        },
+        "quote": "border-left: 4px solid #262626; border-radius: 6px; padding: 10px 10px; background: #fafafa; margin: 0.8em 0; color: #404040; font-style: italic; word-wrap: break-word;",
+        "image": "max-width: 100%; height: auto; margin: 1em auto; display: block;",
+        "link": "color: #262626; text-decoration: none; border-bottom: 1px solid #262626;",
+        "emphasis": {
+          "strong": "font-weight: bold; color: #262626;",
+          "em": "font-style: italic; color: #404040;",
+          "del": "text-decoration: line-through; color: #595959;"
+        },
+        "table": {
+          "container": "width: 100%; margin: 1em 0; border-collapse: collapse; border: 1px solid #f0f0f0;",
+          "header": "background: #fafafa; font-weight: bold; color: #4a4a4a; border-bottom: 1px solid #f0f0f0; font-size: 1em;",
+          "cell": "border: 1px solid #f0f0f0; padding: 8px; color: #4a4a4a; font-size: 1em;"
+        },
+        "hr": "border: none; border-top: 1px solid #f0f0f0; margin: 20px 0;",
+        "footnote": {
+          "ref": "color: #e0e0e0; text-decoration: none; font-size: 0.9em;",
+          "backref": "color: #e0e0e0; text-decoration: none; font-size: 0.9em;"
+        }
+      },
+      "isPreset": true,
+      "isVisible": true
+    },
+    {
+      "id": "scarlet",
+      "name": "红绯主题",
+      "styles": {
+        "container": "",
+        "title": {
+          "h1": {
+            "base": "margin: 32px 0 0; font-size: 2em; letter-spacing: -0.02em; line-height: 1.5;",
+            "content": "font-weight: bold; color: #DC143C;",
+            "after": ""
+          },
+          "h2": {
+            "base": "margin: 28px 0 0; font-size: 1.5em; letter-spacing: -0.01em; line-height: 1.5; border-bottom: 1px solid rgba(220,20,60,0.1);",
+            "content": "font-weight: bold; color: #E34234;",
+            "after": ""
+          },
+          "h3": {
+            "base": "margin: 24px 0 0; font-size: 1.25em; line-height: 1.5;",
+            "content": "font-weight: bold; color: #E65D52;",
+            "after": ""
+          },
+          "base": {
+            "base": "margin: 20px 0 0; font-size: 1em; line-height: 1.5;",
+            "content": "font-weight: bold; color: #E87A70;",
+            "after": ""
+          }
+        },
+        "paragraph": "line-height: 1.8; margin-top: 1em; font-size: 1em; color: #4a4a4a;",
+        "list": {
+          "container": "padding-left: 32px; color: #4a4a4a;",
+          "item": "font-size: 1em; color: #4a4a4a; line-height: 1.8;",
+          "taskList": "list-style: none; font-size: 1em; color: #4a4a4a; line-height: 1.8;"
+        },
+        "code": {
+          "header": {
+            "container": "margin-bottom: 0; display: flex; gap: 6px; padding: 10px 14px; background: rgba(40, 40, 40, 0.85); backdrop-filter: blur(20px) saturate(180%); -webkit-backdrop-filter: blur(20px) saturate(180%); border-radius: 12px 12px 0 0; border: 1px solid rgba(0, 0, 0, 0.1); border-bottom: none;",
+            "dot": "width: 12px; height: 12px; border-radius: 50%;",
+            "colors": [
+              "#ff5f56",
+              "#ffbd2e",
+              "#27c93f"
+            ]
+          },
+          "block": "background: #f5f5f5; color: #333; border-radius: 0 0 12px 12px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04), 0 8px 24px rgba(0, 0, 0, 0.06); border: 1px solid rgba(0, 0, 0, 0.06); border-top: none; margin: 1.2em 0; padding: 20px 18px 16px 18px; overflow-x: auto;",
+          "inline": "background: #fff8f8; padding: 2px 6px; border-radius: 4px; color: #333; font-size: 14px; border: 1px solid #ffe8e8;"
+        },
+        "quote": "border-left: 4px solid #DC143C; border-radius: 6px; padding: 10px 10px; background: #fff8f8; margin: 0.8em 0; color: #E34234; font-style: italic; word-wrap: break-word;",
+        "image": "max-width: 100%; height: auto; margin: 1em auto; display: block;",
+        "link": "color: #DC143C; text-decoration: none; border-bottom: 1px solid #DC143C; transition: all 0.2s ease;",
+        "emphasis": {
+          "strong": "font-weight: bold; color: #4a4a4a;",
+          "em": "font-style: italic; color: #4a4a4a;",
+          "del": "text-decoration: line-through; color: #4a4a4a;"
+        },
+        "table": {
+          "container": "width: 100%; margin: 1em 0; border-collapse: collapse; border: 1px solid #ffe8e8;",
+          "header": "background: #fff8f8; font-weight: bold; color: #4a4a4a; border-bottom: 2px solid #ffe8e8; font-size: 1em;",
+          "cell": "border: 1px solid #f0f0f0; padding: 8px; color: #4a4a4a; font-size: 1em;"
+        },
+        "hr": "border: none; border-top: 1px solid #ffe8e8; margin: 20px 0;",
+        "footnote": {
+          "ref": "color: #e0e0e0; text-decoration: none; font-size: 0.9em;",
+          "backref": "color: #e0e0e0; text-decoration: none; font-size: 0.9em;"
+        }
+      },
+      "isPreset": true,
+      "isVisible": true
+    },
+    {
+      "id": "orange",
+      "name": "橙心主题",
+      "styles": {
+        "container": "",
+        "title": {
+          "h1": {
+            "base": "margin: 32px 0 0; font-size: 2em; letter-spacing: -0.03em; line-height: 1.5;",
+            "content": "font-weight: bold; color: #d64b3b;",
+            "after": ""
+          },
+          "h2": {
+            "base": "margin: 28px 0 0; font-size: 1.5em; letter-spacing: -0.02em; border-bottom: 2px solid #ef7060; line-height: 1.2;",
+            "content": "display: inline-block; font-weight: bold; background: #ef7060; color: #ffffff; padding: 1px 4px; border-top-right-radius: 3px; border-top-left-radius: 3px; margin-right: 3px;",
+            "after": "display: inline-block; content: ' '; vertical-align: bottom; border-bottom: 28px solid #fff5f4; border-right: 20px solid transparent;"
+          },
+          "h3": {
+            "base": "margin: 24px 0 0; font-size: 1.25em; letter-spacing: -0.01em; line-height: 1.5;",
+            "content": "font-weight: bold; color: #f18070;",
+            "after": ""
+          },
+          "base": {
+            "base": "margin: 20px 0 14px; font-size: 1em; line-height: 1.5;",
+            "content": "font-weight: bold; color: #f39080;",
+            "after": ""
+          }
+        },
+        "paragraph": "line-height: 1.8; margin-top: 1em; font-size: 1em; color: #4a4a4a;",
+        "list": {
+          "container": "padding-left: 32px; color: #4a4a4a;",
+          "item": "font-size: 1em; color: #4a4a4a; line-height: 1.8;",
+          "taskList": "list-style: none; font-size: 1em; color: #4a4a4a; line-height: 1.8;"
+        },
+        "code": {
+          "header": {
+            "container": "margin-bottom: 0; display: flex; gap: 6px; padding: 10px 14px; background: rgba(40, 40, 40, 0.85); backdrop-filter: blur(20px) saturate(180%); -webkit-backdrop-filter: blur(20px) saturate(180%); border-radius: 12px 12px 0 0; border: 1px solid rgba(0, 0, 0, 0.1); border-bottom: none;",
+            "dot": "width: 12px; height: 12px; border-radius: 50%;",
+            "colors": [
+              "#ff5f56",
+              "#ffbd2e",
+              "#27c93f"
+            ]
+          },
+          "block": "background: #f5f5f5; color: #333; border-radius: 0 0 12px 12px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04), 0 8px 24px rgba(0, 0, 0, 0.06); border: 1px solid rgba(0, 0, 0, 0.06); border-top: none; margin: 1.2em 0; padding: 20px 18px 16px 18px; overflow-x: auto;",
+          "inline": "background: #fff8f7; padding: 2px 6px; border-radius: 4px; color: #333; font-size: 14px; border: 1px solid #ffe8e6;"
+        },
+        "quote": "border-left: 4px solid #ef7060; border-radius: 6px; padding: 10px 10px; background: #fff5f4; margin: 0.8em 0; color: #d64b3b; font-style: italic; word-wrap: break-word;",
+        "image": "max-width: 100%; height: auto; margin: 1em auto; display: block;",
+        "link": "color: #ef7060; text-decoration: none; border-bottom: 1px solid #ef7060; transition: all 0.2s ease;",
+        "emphasis": {
+          "strong": "font-weight: bold; color: #4a4a4a;",
+          "em": "font-style: italic; color: #4a4a4a;",
+          "del": "text-decoration: line-through; color: #4a4a4a;"
+        },
+        "table": {
+          "container": "width: 100%; margin: 1em 0; border-collapse: collapse; border: 1px solid #ffe8e6;",
+          "header": "background: #fff8f7; font-weight: bold; color: #4a4a4a; border-bottom: 2px solid #ffe8e6; font-size: 1em;",
+          "cell": "border: 1px solid #f0f0f0; padding: 8px; color: #4a4a4a; font-size: 1em;"
+        },
+        "hr": "border: none; border-top: 1px solid #ffe8e6; margin: 20px 0;",
+        "footnote": {
+          "ref": "color: #e0e0e0; text-decoration: none; font-size: 0.9em;",
+          "backref": "color: #e0e0e0; text-decoration: none; font-size: 0.9em;"
+        }
+      },
+      "isPreset": true,
+      "isVisible": true
+    },
+    {
+      "id": "elegant",
+      "name": "优雅主题",
+      "styles": {
+        "container": "",
+        "title": {
+          "h1": {
+            "base": "margin: 32px 0 0; font-size: 2em; letter-spacing: -0.03em; line-height: 1.5;",
+            "content": "font-weight: bold; color: #553C9A;",
+            "after": ""
+          },
+          "h2": {
+            "base": "margin: 28px 0 0; font-size: 1.5em; letter-spacing: -0.02em; border-bottom: 2px solid #9F7AEA; line-height: 1.2;",
+            "content": "display: inline-block; font-weight: bold; background: #9F7AEA; color: #ffffff; padding: 1px 4px; border-top-right-radius: 3px; border-top-left-radius: 3px; margin-right: 3px;",
+            "after": "display: inline-block; content: ' '; vertical-align: bottom; border-bottom: 28px solid #f5f3ff; border-right: 20px solid transparent;"
+          },
+          "h3": {
+            "base": "margin: 24px 0 0; font-size: 1.25em; letter-spacing: -0.01em; line-height: 1.5;",
+            "content": "font-weight: bold; color: #805AD5;",
+            "after": ""
+          },
+          "base": {
+            "base": "margin: 20px 0 14px; font-size: 1em; line-height: 1.5;",
+            "content": "font-weight: bold; color: #805AD5;",
+            "after": ""
+          }
+        },
+        "paragraph": "line-height: 1.8; margin-top: 1em; font-size: 1em; color: #4a4a4a;",
+        "list": {
+          "container": "padding-left: 32px; color: #4a4a4a;",
+          "item": " font-size: 1em; color: #4a4a4a; line-height: 1.8;",
+          "taskList": "list-style: none; font-size: 1em; color: #4a4a4a; line-height: 1.8;"
+        },
+        "code": {
+          "header": {
+            "container": "margin-bottom: 0; display: flex; gap: 6px; padding: 10px 14px; background: rgba(40, 40, 40, 0.85); backdrop-filter: blur(20px) saturate(180%); -webkit-backdrop-filter: blur(20px) saturate(180%); border-radius: 12px 12px 0 0; border: 1px solid rgba(0, 0, 0, 0.1); border-bottom: none;",
+            "dot": "width: 12px; height: 12px; border-radius: 50%;",
+            "colors": [
+              "#ff5f56",
+              "#ffbd2e",
+              "#27c93f"
+            ]
+          },
+          "block": "background: #f5f5f5; color: #333; border-radius: 0 0 12px 12px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04), 0 8px 24px rgba(0, 0, 0, 0.06); border: 1px solid rgba(0, 0, 0, 0.06); border-top: none; margin: 1.2em 0; padding: 20px 18px 16px 18px; overflow-x: auto;",
+          "inline": "background: #f8f8f8; padding: 2px 6px; border-radius: 4px; color: #333; font-size: 14px; border: 1px solid #eee;"
+        },
+        "quote": "border-left: 4px solid #9F7AEA; border-radius: 6px; padding: 10px 10px; background: #f5f3ff; margin: 0.8em 0; color: #6B46C1; font-style: italic; word-wrap: break-word;",
+        "image": "max-width: 100%; height: auto; margin: 1em auto; display: block;",
+        "link": "color: #805AD5; text-decoration: none; border-bottom: 1px solid #9F7AEA; transition: all 0.2s ease;",
+        "emphasis": {
+          "strong": "font-weight: bold; color: #4a4a4a;",
+          "em": "font-style: italic; color: #4a4a4a;",
+          "del": "text-decoration: line-through; color: #4a4a4a;"
+        },
+        "table": {
+          "container": "width: 100%; margin: 1em 0; border-collapse: collapse; border: 1px solid #e1e4e8;",
+          "header": "background: #f6f8fa; font-weight: bold; color: #4a4a4a; border-bottom: 2px solid #e1e4e8; font-size: 1em;",
+          "cell": "border: 1px solid #f0f0f0; padding: 8px; color: #4a4a4a; font-size: 1em;"
+        },
+        "hr": "border: none; border-top: 1px solid #f0f0f0; margin: 20px 0;",
+        "footnote": {
+          "ref": "color: #e0e0e0; text-decoration: none; font-size: 0.9em;",
+          "backref": "color: #e0e0e0; text-decoration: none; font-size: 0.9em;"
+        }
+      },
+      "isPreset": true,
+      "isVisible": true
+    },
+    {
+      "id": "dark",
+      "name": "深色主题",
+      "styles": {
+        "container": "",
+        "title": {
+          "h1": {
+            "base": "margin: 32px 0 0; font-size: 2em; letter-spacing: -0.03em; line-height: 1.5;",
+            "content": "font-weight: bold; color: #1E90FF;",
+            "after": ""
+          },
+          "h2": {
+            "base": "margin: 28px 0 0; font-size: 1.5em; letter-spacing: -0.02em; border-left: 4px solid #1E90FF; padding-left: 12px; line-height: 1.5;",
+            "content": "font-weight: bold; color: #3B9DFF;",
+            "after": ""
+          },
+          "h3": {
+            "base": "margin: 24px 0 0; font-size: 1.25em; letter-spacing: -0.01em; line-height: 1.5;",
+            "content": "font-weight: bold; color: #57A9FF;",
+            "after": ""
+          },
+          "base": {
+            "base": "margin: 20px 0 0; font-size: 1em; line-height: 1.5;",
+            "content": "font-weight: bold; color: #74B6FF;",
+            "after": ""
+          }
+        },
+        "paragraph": "line-height: 1.8; margin-top: 1em; font-size: 1em; color: #4a4a4a;",
+        "list": {
+          "container": "padding-left: 32px; color: #4a4a4a;",
+          "item": " font-size: 1em; color: #4a4a4a; line-height: 1.8;",
+          "taskList": "list-style: none; font-size: 1em; color: #4a4a4a; line-height: 1.8;"
+        },
+        "code": {
+          "header": {
+            "container": "margin-bottom: 0; display: flex; gap: 6px; padding: 10px 14px; background: rgba(40, 40, 40, 0.85); backdrop-filter: blur(20px) saturate(180%); -webkit-backdrop-filter: blur(20px) saturate(180%); border-radius: 12px 12px 0 0; border: 1px solid rgba(0, 0, 0, 0.1); border-bottom: none;",
+            "dot": "width: 12px; height: 12px; border-radius: 50%;",
+            "colors": [
+              "#ff5f56",
+              "#ffbd2e",
+              "#27c93f"
+            ]
+          },
+          "block": "background: #f5f5f5; color: #333; border-radius: 0 0 12px 12px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04), 0 8px 24px rgba(0, 0, 0, 0.06); border: 1px solid rgba(0, 0, 0, 0.06); border-top: none; margin: 1.2em 0; padding: 20px 18px 16px 18px; overflow-x: auto;",
+          "inline": "background: #F8FBFF; padding: 2px 6px; border-radius: 4px; color: #333; font-size: 14px; border: 1px solid #E6F0FF;"
+        },
+        "quote": "border-left: 4px solid #1E90FF; border-radius: 6px; padding: 10px 10px; background: #F5F9FF; margin: 0.8em 0; color: #6a737d; font-style: italic; word-wrap: break-word;",
+        "image": "max-width: 100%; height: auto; margin: 1em auto; display: block;",
+        "link": "color: #1E90FF; text-decoration: none; border-bottom: 1px solid #1E90FF; transition: all 0.2s ease;",
+        "emphasis": {
+          "strong": "font-weight: bold; color: #4a4a4a;",
+          "em": "font-style: italic; color: #4a4a4a;",
+          "del": "text-decoration: line-through; color: #4a4a4a;"
+        },
+        "table": {
+          "container": "width: 100%; margin: 1em 0; border-collapse: collapse; border: 1px solid #E6F0FF;",
+          "header": "background: #F8FBFF; font-weight: bold; color: #4a4a4a; border-bottom: 2px solid #E6F0FF; font-size: 1em;",
+          "cell": "border: 1px solid #f0f0f0; padding: 8px; color: #4a4a4a; font-size: 1em;"
+        },
+        "hr": "border: none; border-top: 1px solid #E6F0FF; margin: 20px 0;",
+        "footnote": {
+          "ref": "color: #e0e0e0; text-decoration: none; font-size: 0.9em;",
+          "backref": "color: #e0e0e0; text-decoration: none; font-size: 0.9em;"
+        }
+      },
+      "isPreset": true,
+      "isVisible": true
+    },
+    {
+      "id": "academic",
+      "name": "学术主题",
+      "styles": {
+        "container": "",
+        "title": {
+          "h1": {
+            "base": "margin: 32px 0 0; font-size: 2em; letter-spacing: -0.03em; line-height: 1.5;",
+            "content": "font-weight: bold; color: #5D4037;",
+            "after": ""
+          },
+          "h2": {
+            "base": "margin: 28px 0 0; font-size: 1.5em; letter-spacing: -0.02em; border-left: 4px solid #8D6E63; padding-left: 12px; line-height: 1.5;",
+            "content": "font-weight: bold; color: #6D4C41;",
+            "after": ""
+          },
+          "h3": {
+            "base": "margin: 24px 0 0; font-size: 1.25em; letter-spacing: -0.01em; line-height: 1.5;",
+            "content": "font-weight: bold; color: #795548;",
+            "after": ""
+          },
+          "base": {
+            "base": "margin: 20px 0 0; font-size: 1em; line-height: 1.5;",
+            "content": "font-weight: bold; color: #8D6E63;",
+            "after": ""
+          }
+        },
+        "paragraph": "line-height: 1.8; margin-top: 1em; font-size: 1em; color: #4a4a4a;",
+        "link": "color: #795548; text-decoration: none; border-bottom: 1px solid #8D6E63; transition: all 0.2s ease;",
+        "emphasis": {
+          "strong": "font-weight: 600; color: #4a4a4a;",
+          "em": "font-style: italic; color: #4a4a4a;",
+          "del": "text-decoration: line-through; color: #4a4a4a;"
+        },
+        "list": {
+          "container": "padding-left: 32px; color: #4a4a4a;",
+          "item": "font-size: 1em; color: #4a4a4a; line-height: 1.8;",
+          "taskList": "list-style: none; font-size: 1em; color: #4a4a4a; line-height: 1.8;"
+        },
+        "code": {
+          "header": {
+            "container": "margin-bottom: 0; display: flex; gap: 6px; padding: 10px 14px; background: rgba(40, 40, 40, 0.85); backdrop-filter: blur(20px) saturate(180%); -webkit-backdrop-filter: blur(20px) saturate(180%); border-radius: 12px 12px 0 0; border: 1px solid rgba(0, 0, 0, 0.1); border-bottom: none;",
+            "dot": "width: 12px; height: 12px; border-radius: 50%;",
+            "colors": [
+              "#ff5f56",
+              "#ffbd2e",
+              "#27c93f"
+            ]
+          },
+          "block": "background: #f5f5f5; color: #333; border-radius: 0 0 12px 12px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04), 0 8px 24px rgba(0, 0, 0, 0.06); border: 1px solid rgba(0, 0, 0, 0.06); border-top: none; margin: 1.2em 0; padding: 20px 18px 16px 18px; overflow-x: auto;",
+          "inline": "background: #EFEBE9; padding: 2px 6px; border-radius: 4px; color: #5D4037; font-size: 14px; border: 1px solid #8D6E63;"
+        },
+        "quote": "border-left: 4px solid #8D6E63; border-radius: 6px; padding: 10px 10px; background: #EFEBE9; margin: 0.8em 0; color: #5D4037; font-style: italic; word-wrap: break-word;",
+        "image": "max-width: 100%; height: auto; margin: 1em auto; display: block;",
+        "table": {
+          "container": "width: 100%; margin: 1em 0; border-collapse: collapse; border: 1px solid #e1e4e8;",
+          "header": "background: #f6f8fa; font-weight: bold; color: #4a4a4a; border-bottom: 2px solid #e1e4e8; font-size: 1em;",
+          "cell": "border: 1px solid #f0f0f0; padding: 8px; color: #4a4a4a; font-size: 1em;"
+        },
+        "hr": "border: none; border-top: 1px solid #f0f0f0; margin: 20px 0;",
+        "footnote": {
+          "ref": "color: #e0e0e0; text-decoration: none; font-size: 0.9em;",
+          "backref": "color: #e0e0e0; text-decoration: none; font-size: 0.9em;"
+        }
+      },
+      "isPreset": true,
+      "isVisible": true
+    },
+    {
+      "id": "yeban",
+      "name": "夜半主题",
+      "styles": {
+        "container": "",
+        "title": {
+          "h1": {
+            "base": "margin: 32px 0 0; font-size: 2em; letter-spacing: -0.03em; line-height: 1.5; text-align: center;",
+            "content": "font-weight: bold; color: #666b8f; display: inline-block; border-bottom: 1px solid #666b8f;",
+            "after": ""
+          },
+          "h2": {
+            "base": "margin: 28px 0 0; font-size: 1.5em; letter-spacing: -0.02em; line-height: 1.5; border-bottom: 1px solid rgba(122,125,160,0.2);",
+            "content": "font-weight: bold; color: #ffffff; background: #7a7da0; padding: 1px 4px; border-radius: 3px;",
+            "after": ""
+          },
+          "h3": {
+            "base": "margin: 24px 0 0; font-size: 1.25em; letter-spacing: -0.01em; line-height: 1.5;",
+            "content": "font-weight: bold; color: #7a7da0; padding: 1px 1px;",
+            "after": ""
+          },
+          "base": {
+            "base": "margin: 20px 0 0; font-size: 1em;",
+            "content": "font-weight: bold; color: #7a7da0;",
+            "after": ""
+          }
+        },
+        "paragraph": "line-height: 1.8; margin: 1.2em 0; font-size: 1em; color: #4a4a4a;",
+        "list": {
+          "container": "padding-left: 32px; margin-bottom: 1.2em; color: #4a4a4a;",
+          "item": "margin-bottom: 0.6em; font-size: 1em; color: #4a4a4a; line-height: 1.8;",
+          "taskList": "list-style: none; margin-left: -24px; font-size: 1em; color: #4a4a4a; line-height: 1.8;"
+        },
+        "code": {
+          "header": {
+            "container": "margin-bottom: 0; display: flex; gap: 6px; padding: 10px 14px; background: rgba(40, 40, 40, 0.85); backdrop-filter: blur(20px) saturate(180%); -webkit-backdrop-filter: blur(20px) saturate(180%); border-radius: 12px 12px 0 0; border: 1px solid rgba(0, 0, 0, 0.1); border-bottom: none;",
+            "dot": "width: 12px; height: 12px; border-radius: 50%;",
+            "colors": [
+              "#ff5f56",
+              "#ffbd2e",
+              "#27c93f"
+            ]
+          },
+          "block": "background: #f5f5f5; color: #333; border-radius: 0 0 12px 12px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04), 0 8px 24px rgba(0, 0, 0, 0.06); border: 1px solid rgba(0, 0, 0, 0.06); border-top: none; margin: 1.2em 0; padding: 20px 18px 16px 18px; overflow-x: auto;",
+          "inline": "background: #f8f9fc; padding: 2px 6px; border-radius: 4px; color: #333; font-size: 14px; border: 1px solid #eef0f7;"
+        },
+        "quote": "border-left: 4px solid #7a7da0; border-radius: 6px; padding: 10px 10px; background: #f8f9fc; margin: 0.8em 0; color: #666b8f; font-style: italic; word-wrap: break-word;",
+        "image": "max-width: 100%; height: auto; margin: 1em auto; display: block;",
+        "link": "color: #7a7da0; text-decoration: none; border-bottom: 1px solid #7a7da0; transition: all 0.2s ease;",
+        "emphasis": {
+          "strong": "font-weight: bold; color: #4a4a4a;",
+          "em": "font-style: italic; color: #4a4a4a;",
+          "del": "text-decoration: line-through; color: #4a4a4a;"
+        },
+        "table": {
+          "container": "width: 100%; margin: 1em 0; border-collapse: collapse; border: 1px solid #e1e4e8;",
+          "header": "background: #f8f9fc; font-weight: bold; color: #4a4a4a; border-bottom: 2px solid #e1e4e8; font-size: 1em;",
+          "cell": "border: 1px solid #f0f0f0; padding: 8px; color: #4a4a4a; font-size: 1em;"
+        },
+        "hr": "border: none; border-top: 1px solid #eef0f7; margin: 20px 0;",
+        "footnote": {
+          "ref": "color: #e0e0e0; text-decoration: none; font-size: 0.9em;",
+          "backref": "color: #e0e0e0; text-decoration: none; font-size: 0.9em;"
+        }
+      },
+      "isPreset": true,
+      "isVisible": true
+    },
+    {
+      "id": "yeban-orange",
+      "name": "夜半橙心",
+      "styles": {
+        "container": "",
+        "title": {
+          "h1": {
+            "base": "margin: 32px 0 0; font-size: 2em; letter-spacing: -0.03em; line-height: 1.5; text-align: center;",
+            "content": "font-weight: bold; color: #ef7060; display: inline-block; border-bottom: 1px solid #ef7060;",
+            "after": ""
+          },
+          "h2": {
+            "base": "margin: 28px 0 0; font-size: 1.5em; letter-spacing: -0.02em; line-height: 1.5; border-bottom: 1px solid rgba(239,112,96,0.2);",
+            "content": "font-weight: bold; color: #ffffff; background: #ef7060; padding: 1px 4px; border-radius: 3px;",
+            "after": ""
+          },
+          "h3": {
+            "base": "margin: 24px 0 0; font-size: 1.25em; letter-spacing: -0.01em; line-height: 1.5;",
+            "content": "font-weight: bold; color: #f18070; padding: 1px 1px;",
+            "after": ""
+          },
+          "base": {
+            "base": "margin: 20px 0 0; font-size: 1em;",
+            "content": "font-weight: bold; color: #f39080;",
+            "after": ""
+          }
+        },
+        "paragraph": "line-height: 1.8; margin-top: 1em; font-size: 1em; color: #4a4a4a;",
+        "list": {
+          "container": "padding-left: 32px; color: #4a4a4a;",
+          "item": "font-size: 1em; color: #4a4a4a; line-height: 1.8;",
+          "taskList": "list-style: none; font-size: 1em; color: #4a4a4a; line-height: 1.8;"
+        },
+        "code": {
+          "header": {
+            "container": "margin-bottom: 0; display: flex; gap: 6px; padding: 10px 14px; background: rgba(40, 40, 40, 0.85); backdrop-filter: blur(20px) saturate(180%); -webkit-backdrop-filter: blur(20px) saturate(180%); border-radius: 12px 12px 0 0; border: 1px solid rgba(0, 0, 0, 0.1); border-bottom: none;",
+            "dot": "width: 12px; height: 12px; border-radius: 50%;",
+            "colors": [
+              "#ff5f56",
+              "#ffbd2e",
+              "#27c93f"
+            ]
+          },
+          "block": "background: #f5f5f5; color: #333; border-radius: 0 0 12px 12px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04), 0 8px 24px rgba(0, 0, 0, 0.06); border: 1px solid rgba(0, 0, 0, 0.06); border-top: none; margin: 1.2em 0; padding: 20px 18px 16px 18px; overflow-x: auto;",
+          "inline": "background: #fff8f7; padding: 2px 6px; border-radius: 4px; color: #333; font-size: 14px; border: 1px solid #ffe8e6;"
+        },
+        "quote": "border-left: 4px solid #7a7da0; border-radius: 6px; padding: 10px 10px; background: #fff8f7; margin: 0.8em 0; color: #d64b3b; font-style: italic; word-wrap: break-word;",
+        "image": "max-width: 100%; height: auto; margin: 1em auto; display: block;",
+        "link": "color: #ef7060; text-decoration: none; border-bottom: 1px solid #ef7060; transition: all 0.2s ease;",
+        "emphasis": {
+          "strong": "font-weight: bold; color: #4a4a4a;",
+          "em": "font-style: italic; color: #4a4a4a;",
+          "del": "text-decoration: line-through; color: #4a4a4a;"
+        },
+        "table": {
+          "container": "width: 100%; margin: 1em 0; border-collapse: collapse; border: 1px solid #ffe8e6;",
+          "header": "background: #fff8f7; font-weight: bold; color: #4a4a4a; border-bottom: 2px solid #ffe8e6; font-size: 1em;",
+          "cell": "border: 1px solid #f0f0f0; padding: 8px; color: #4a4a4a; font-size: 1em;"
+        },
+        "hr": "border: none; border-top: 1px solid #ffe8e6; margin: 20px 0;",
+        "footnote": {
+          "ref": "color: #e0e0e0; text-decoration: none; font-size: 0.9em;",
+          "backref": "color: #e0e0e0; text-decoration: none; font-size: 0.9em;"
+        }
+      },
+      "isPreset": true,
+      "isVisible": true
+    },
+    {
+      "id": "darkgreen",
+      "name": "墨绿主题",
+      "styles": {
+        "container": "",
+        "title": {
+          "h1": {
+            "base": "margin: 32px 0 0; font-size: 2em; letter-spacing: -0.03em; line-height: 1.5; text-align: center;",
+            "content": "font-weight: bold; color: #2C5530; display: inline-block; border-bottom: 1px solid #2C5530;",
+            "after": ""
+          },
+          "h2": {
+            "base": "margin: 28px 0 0; font-size: 1.5em; letter-spacing: -0.02em; line-height: 1.5; border-bottom: 1px solid rgba(46,139,87,0.2);",
+            "content": "font-weight: bold; color: #ffffff; background: #2E8B57; padding: 1px 4px; border-radius: 3px;",
+            "after": ""
+          },
+          "h3": {
+            "base": "margin: 24px 0 0; font-size: 1.25em; letter-spacing: -0.01em; line-height: 1.5;",
+            "content": "font-weight: bold; color: #3CB371; padding: 1px 1px;",
+            "after": ""
+          },
+          "base": {
+            "base": "margin: 20px 0 0; font-size: 1em;",
+            "content": "font-weight: bold; color: #66CDAA;",
+            "after": ""
+          }
+        },
+        "paragraph": "line-height: 1.8; margin-top: 1em; font-size: 1em; color: #4a4a4a;",
+        "list": {
+          "container": "padding-left: 32px; color: #4a4a4a;",
+          "item": " font-size: 1em; color: #4a4a4a; line-height: 1.8;",
+          "taskList": "list-style: none; font-size: 1em; color: #4a4a4a; line-height: 1.8;"
+        },
+        "code": {
+          "header": {
+            "container": "margin-bottom: 0; display: flex; gap: 6px; padding: 10px 14px; background: rgba(40, 40, 40, 0.85); backdrop-filter: blur(20px) saturate(180%); -webkit-backdrop-filter: blur(20px) saturate(180%); border-radius: 12px 12px 0 0; border: 1px solid rgba(0, 0, 0, 0.1); border-bottom: none;",
+            "dot": "width: 12px; height: 12px; border-radius: 50%;",
+            "colors": [
+              "#ff5f56",
+              "#ffbd2e",
+              "#27c93f"
+            ]
+          },
+          "block": "background: #f5f5f5; color: #333; border-radius: 0 0 12px 12px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04), 0 8px 24px rgba(0, 0, 0, 0.06); border: 1px solid rgba(0, 0, 0, 0.06); border-top: none; margin: 1.2em 0; padding: 20px 18px 16px 18px; overflow-x: auto;",
+          "inline": "background: #f4faf7; padding: 2px 6px; border-radius: 4px; color: #333; font-size: 14px; border: 1px solid #e6f3ed;"
+        },
+        "quote": "border-left: 4px solid #e6f3ed; border-radius: 6px; padding: 10px 10px; background: #f4faf7; margin: 0.8em 0; color: #159461; font-style: italic; word-wrap: break-word;",
+        "image": "max-width: 100%; height: auto; margin: 1em auto; display: block;",
+        "link": "color: #159461; text-decoration: none; border-bottom: 1px solid #1a9d6a; transition: all 0.2s ease;",
+        "emphasis": {
+          "strong": "font-weight: bold; color: #4a4a4a;",
+          "em": "font-style: italic; color: #4a4a4a;",
+          "del": "text-decoration: line-through; color: #4a4a4a;"
+        },
+        "table": {
+          "container": "width: 100%; margin: 1em 0; border-collapse: collapse; border: 1px solid #e6f3ed;",
+          "header": "background: #f4faf7; font-weight: bold; color: #4a4a4a; border-bottom: 2px solid #e6f3ed; font-size: 1em;",
+          "cell": "border: 1px solid #f0f0f0; padding: 8px; color: #4a4a4a; font-size: 1em;"
+        },
+        "hr": "border: none; border-top: 1px solid #e6f3ed; margin: 20px 0;",
+        "footnote": {
+          "ref": "color: #e0e0e0; text-decoration: none; font-size: 0.9em;",
+          "backref": "color: #e0e0e0; text-decoration: none; font-size: 0.9em;"
+        }
+      },
+      "isPreset": true,
+      "isVisible": true
+    },
+    {
+      "id": "brown",
+      "name": "悦灵雅棕",
+      "styles": {
+        "container": "",
+        "title": {
+          "h1": {
+            "base": "margin: 32px 0 0; font-size: 2em; letter-spacing: -0.02em; line-height: 1.5;",
+            "content": "font-weight: bold; color: #4a4a4a;",
+            "after": ""
+          },
+          "h2": {
+            "base": "margin: 28px 0 24px 0; font-size: 1.5em; letter-spacing: -0.01em; line-height: 1.5;",
+            "content": "font-weight: bold; color: #4a4a4a;",
+            "after": ""
+          },
+          "h3": {
+            "base": "margin: 24px 0 20px 0; font-size: 1.25em; letter-spacing: -0.01em; border-left: 4px solid #4a4a4a; padding-left: 12px; line-height: 1.5;",
+            "content": "font-weight: bold; color: #4a4a4a;",
+            "after": ""
+          },
+          "base": {
+            "base": "margin: 20px 0 0; font-size: 1em; line-height: 1.5;",
+            "content": "font-weight: bold; color: #4a4a4a;",
+            "after": ""
+          }
+        },
+        "paragraph": "line-height: 1.8; margin-top: 1em; font-size: 1em; color: #4a4a4a;",
+        "list": {
+          "container": "padding-left: 32px; color: #4a4a4a;",
+          "item": "font-size: 1em; color: #4a4a4a; line-height: 1.8;",
+          "taskList": "list-style: none; font-size: 1em; color: #4a4a4a; line-height: 1.8;"
+        },
+        "code": {
+          "header": {
+            "container": "margin-bottom: 0; display: flex; gap: 6px; padding: 10px 14px; background: rgba(40, 40, 40, 0.85); backdrop-filter: blur(20px) saturate(180%); -webkit-backdrop-filter: blur(20px) saturate(180%); border-radius: 12px 12px 0 0; border: 1px solid rgba(0, 0, 0, 0.1); border-bottom: none;",
+            "dot": "width: 12px; height: 12px; border-radius: 50%;",
+            "colors": [
+              "#ff5f56",
+              "#ffbd2e",
+              "#27c93f"
+            ]
+          },
+          "block": "background: #f5f5f5; color: #333; border-radius: 0 0 12px 12px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04), 0 8px 24px rgba(0, 0, 0, 0.06); border: 1px solid rgba(0, 0, 0, 0.06); border-top: none; margin: 1.2em 0; padding: 20px 18px 16px 18px; overflow-x: auto;",
+          "inline": "background: #fef7ed; padding: 2px 6px; border-radius: 4px; color: #333; font-size: 14px; border: 1px solid #f5e2c7;"
+        },
+        "quote": "border-left: 4px solid #c57512; border-radius: 6px; padding: 10px 10px; background: #fef7ed; margin: 0.8em 0; color: #8b6d4d; font-style: italic; word-wrap: break-word;",
+        "image": "max-width: 100%; height: auto; margin: 1em auto; display: block;",
+        "link": "color: #c57512; text-decoration: none; border-bottom: 1px solid #c57512;",
+        "emphasis": {
+          "strong": "font-weight: bold; color: #c57512;",
+          "em": "font-style: italic; color: #c57512;",
+          "del": "text-decoration: line-through; color: #c57512;"
+        },
+        "table": {
+          "container": "width: 100%; margin: 1em 0; border-collapse: collapse; border: 1px solid #f5e2c7;",
+          "header": "background: #fef7ed; font-weight: bold; color: #c57512; border-bottom: 2px solid #f5e2c7; font-size: 1em;",
+          "cell": "border: 1px solid #f5e2c7; padding: 8px; color: #4a4a4a; font-size: 1em;"
+        },
+        "hr": "border: none; border-top: 1px solid #f5e2c7; margin: 20px 0;",
+        "footnote": {
+          "ref": "color: #c57512; text-decoration: none; font-size: 0.9em;",
+          "backref": "color: #c57512; text-decoration: none; font-size: 0.9em;"
+        }
+      },
+      "isPreset": true,
+      "isVisible": true
+    },
+    {
+      "id": "blue-light",
+      "name": "科技蓝调",
+      "description": "基于深色主题的蓝调风格",
+      "styles": {
+        "container": "",
+        "title": {
+          "h1": {
+            "base": "margin: 32px 0 0; font-size: 88px; letter-spacing: -0.03em; line-height: 1.5;",
+            "content": "font-weight: 700; color: rgba(0, 61, 165, 0.20);",
+            "after": ""
+          },
+          "h2": {
+            "base": "margin: 28px 0 0; font-size: 24px; letter-spacing: -0.02em; border-left: 4px solid rgb(0, 61, 165); padding-left: 12px; line-height: 1.5;",
+            "content": "font-weight: 700; color: rgba(0, 61, 165, 0.85);",
+            "after": ""
+          },
+          "h3": {
+            "base": "margin: 24px 0 0; font-size: 18.4px; letter-spacing: -0.01em; line-height: 1.5;",
+            "content": "font-weight: 600; color: rgb(0, 61, 165);",
+            "after": ""
+          },
+          "base": {
+            "base": "margin: 20px 0 0; font-size: 1.1em; line-height: 1.5;",
+            "content": "font-weight: 600; color: rgb(0, 61, 165);",
+            "after": ""
+          }
+        },
+        "paragraph": "line-height: 1.8; margin-top: 1em; font-size: 1em; color: rgb(74, 85, 104);",
+        "list": {
+          "container": "padding-left: 32px; color: rgb(74, 85, 104);",
+          "item": "font-size: 1em; color: rgb(74, 85, 104); line-height: 1.8;",
+          "taskList": "list-style: none; font-size: 1em; color: rgb(74, 85, 104); line-height: 1.8;"
+        },
+        "code": {
+          "header": {
+            "container": "margin-bottom: 0; display: flex; gap: 6px; padding: 10px 14px; background: rgba(40, 40, 40, 0.85); backdrop-filter: blur(20px) saturate(180%); -webkit-backdrop-filter: blur(20px) saturate(180%); border-radius: 12px 12px 0 0; border: 1px solid rgba(0, 0, 0, 0.1); border-bottom: none;",
+            "dot": "width: 12px; height: 12px; border-radius: 50%;",
+            "colors": [
+              "#ff5f56",
+              "#ffbd2e",
+              "#27c93f"
+            ]
+          },
+          "block": "background: #f5f5f5; color: #333; border-radius: 0 0 12px 12px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04), 0 8px 24px rgba(0, 0, 0, 0.06); border: 1px solid rgba(0, 0, 0, 0.06); border-top: none; margin: 1.2em 0; padding: 20px 18px 16px 18px; overflow-x: auto;",
+          "inline": "background: #F8FBFF; padding: 2px 6px; border-radius: 4px; color: #333; font-size: 14px; border: 1px solid #E6F0FF;"
+        },
+        "quote": "border-left: 4px solid #2c3e50; border-radius: 6px; padding: 10px 10px; background: #f8f9fa; margin: 0.8em 0; color: rgb(74, 85, 104); font-style: italic; word-wrap: break-word;",
+        "image": "max-width: 100%; height: auto; margin: 1em auto; display: block;",
+        "link": "color: rgb(215, 130, 126); text-decoration: none; border-bottom: 1px solid rgb(215, 130, 126); transition: all 0.2s ease;",
+        "emphasis": {
+          "strong": "font-weight: bold; color: rgb(0, 61, 165);",
+          "em": "font-style: italic; color: rgb(74, 85, 104);",
+          "del": "text-decoration: line-through; color: rgb(74, 85, 104);"
+        },
+        "table": {
+          "container": "width: 100%; margin: 1em 0; border-collapse: collapse; border: 1px solid rgba(0, 61, 165, 0.2);",
+          "header": "background: rgba(0, 61, 165, 0.05); font-weight: bold; color: rgb(74, 85, 104); border-bottom: 2px solid rgba(0, 61, 165, 0.2); font-size: 1em;",
+          "cell": "border: 1px solid rgba(0, 61, 165, 0.1); padding: 8px; color: rgb(74, 85, 104); font-size: 1em;"
+        },
+        "hr": "border: none; border-top: 1px solid rgba(0, 61, 165, 0.2); margin: 20px 0;",
+        "footnote": {
+          "ref": "color: rgb(215, 130, 126); text-decoration: none; font-size: 0.9em;",
+          "backref": "color: rgb(215, 130, 126); text-decoration: none; font-size: 0.9em;"
+        }
+      },
+      "isPreset": true,
+      "isVisible": true
+    },
+    {
+      "id": "orange-vitality",
+      "name": "橙意活力",
+      "description": "温暖活力的橙色主题，适合个人成长类内容",
+      "styles": {
+        "container": "",
+        "title": {
+          "h1": {
+            "base": "margin: 32px 0 8px; font-size: 88px; letter-spacing: -0.03em; line-height: 0.9;",
+            "content": "font-weight: 700; color: rgba(232, 122, 0, 0.2);",
+            "after": ""
+          },
+          "h2": {
+            "base": "margin: 20px 0 16px; font-size: 24px; letter-spacing: -0.02em; border-left: 4px solid rgb(232, 122, 0); padding-left: 12px; line-height: 1.3;",
+            "content": "font-weight: 700; color: rgb(232, 122, 0);",
+            "after": ""
+          },
+          "h3": {
+            "base": "margin: 18px 0 12px; font-size: 20px; line-height: 1.35;",
+            "content": "font-weight: 600; color: rgb(232, 122, 0);",
+            "after": ""
+          },
+          "base": {
+            "base": "margin: 16px 0 10px; font-size: 18px; line-height: 1.4;",
+            "content": "font-weight: 600; color: rgb(232, 122, 0);",
+            "after": ""
+          }
+        },
+        "paragraph": "line-height: 1.75; margin-top: 0; margin-bottom: 18px; font-size: 1em; color: rgb(74, 74, 74);",
+        "list": {
+          "container": "padding-left: 32px; color: rgb(74, 74, 74);",
+          "item": "font-size: 1em; color: rgb(74, 74, 74); line-height: 1.75; margin-bottom: 8px;",
+          "taskList": "list-style: none; font-size: 1em; color: rgb(74, 74, 74); line-height: 1.75;"
+        },
+        "code": {
+          "header": {
+            "container": "margin-bottom: 0; display: flex; gap: 6px; padding: 10px 14px; background: rgba(40, 40, 40, 0.85); backdrop-filter: blur(20px) saturate(180%); -webkit-backdrop-filter: blur(20px) saturate(180%); border-radius: 12px 12px 0 0; border: 1px solid rgba(0, 0, 0, 0.1); border-bottom: none;",
+            "dot": "width: 12px; height: 12px; border-radius: 50%;",
+            "colors": [
+              "#ff5f56",
+              "#ffbd2e",
+              "#27c93f"
+            ]
+          },
+          "block": "background: #f5f5f5; color: #333; border-radius: 0 0 12px 12px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04), 0 8px 24px rgba(0, 0, 0, 0.06); border: 1px solid rgba(0, 0, 0, 0.06); border-top: none; margin: 1.2em 0; padding: 20px 18px 16px 18px; overflow-x: auto;",
+          "inline": "background: #FFF8F0; padding: 2px 6px; border-radius: 4px; color: #333; font-size: 14px; border: 1px solid #FFE4CC;"
+        },
+        "quote": "border-left: 4px solid rgb(232, 122, 0); border-radius: 6px; padding: 10px 14px; background: #FFF8F0; margin: 0.8em 0; color: rgb(74, 74, 74); font-style: italic; word-wrap: break-word;",
+        "image": "max-width: 100%; height: auto; margin: 1em auto; display: block;",
+        "link": "color: rgb(232, 122, 0); text-decoration: none; border-bottom: 1px solid rgb(232, 122, 0); transition: all 0.2s ease;",
+        "emphasis": {
+          "strong": "font-weight: 600; color: rgb(232, 122, 0);",
+          "em": "font-style: italic; color: rgb(74, 74, 74);",
+          "del": "text-decoration: line-through; color: rgb(74, 74, 74);"
+        },
+        "table": {
+          "container": "width: 100%; margin: 1em 0; border-collapse: collapse; border: 1px solid #FFE4CC;",
+          "header": "background: #FFF8F0; font-weight: bold; color: rgb(74, 74, 74); border-bottom: 2px solid rgb(232, 122, 0); font-size: 1em;",
+          "cell": "border: 1px solid #FFE4CC; padding: 8px; color: rgb(74, 74, 74); font-size: 1em;"
+        },
+        "hr": "border: none; border-top: 1px solid #FFE4CC; margin: 20px 0;",
+        "footnote": {
+          "ref": "color: rgb(232, 122, 0); text-decoration: none; font-size: 0.9em;",
+          "backref": "color: rgb(232, 122, 0); text-decoration: none; font-size: 0.9em;"
+        }
+      },
+      "isPreset": true,
+      "isVisible": true
+    },
+    {
+      "id": "modern-dark",
+      "name": "现代科技",
+      "description": "科技感现代风格，深色标题配绿色强调和黄色高亮",
+      "styles": {
+        "container": "",
+        "title": {
+          "h1": {
+            "base": "margin: 32px 0 24px; font-size: 38px; letter-spacing: -0.02em; line-height: 1.1;",
+            "content": "font-weight: 900; color: rgb(17, 24, 39);",
+            "after": ""
+          },
+          "h2": {
+            "base": "margin: 24px 0 16px; font-size: 22px; letter-spacing: -0.01em; line-height: 1.4;",
+            "content": "font-weight: 800; color: rgb(17, 24, 39);",
+            "after": ""
+          },
+          "h3": {
+            "base": "margin: 20px 0 12px; font-size: 18px; line-height: 1.5;",
+            "content": "font-weight: 700; color: rgb(17, 24, 39);",
+            "after": ""
+          },
+          "base": {
+            "base": "margin: 16px 0 8px; font-size: 15px; line-height: 1.5;",
+            "content": "font-weight: 700; color: rgb(17, 24, 39);",
+            "after": ""
+          }
+        },
+        "paragraph": "line-height: 1.8; margin-top: 0; margin-bottom: 16px; font-size: 15px; color: rgb(75, 85, 99);",
+        "list": {
+          "container": "padding-left: 24px; color: rgb(75, 85, 99);",
+          "item": "font-size: 15px; color: rgb(75, 85, 99); line-height: 1.8; margin-bottom: 12px;",
+          "taskList": "list-style: none; font-size: 15px; color: rgb(75, 85, 99); line-height: 1.8;"
+        },
+        "code": {
+          "header": {
+            "container": "margin-bottom: 0; display: flex; gap: 6px; padding: 10px 14px; background: rgba(40, 40, 40, 0.85); backdrop-filter: blur(20px) saturate(180%); -webkit-backdrop-filter: blur(20px) saturate(180%); border-radius: 12px 12px 0 0; border: 1px solid rgba(0, 0, 0, 0.1); border-bottom: none;",
+            "dot": "width: 12px; height: 12px; border-radius: 50%;",
+            "colors": [
+              "#ff5f56",
+              "#ffbd2e",
+              "#27c93f"
+            ]
+          },
+          "block": "background: #f5f5f5; color: #333; border-radius: 0 0 12px 12px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04), 0 8px 24px rgba(0, 0, 0, 0.06); border: 1px solid rgba(0, 0, 0, 0.06); border-top: none; margin: 1.2em 0; padding: 20px 18px 16px 18px; overflow-x: auto;",
+          "inline": "background: rgba(16, 185, 129, 0.1); padding: 2px 8px; border-radius: 4px; color: rgb(16, 185, 129); font-size: 14px; border: none;"
+        },
+        "quote": "border-left: 4px solid rgb(251, 191, 36); border-radius: 0; padding: 12px 16px; background: rgba(251, 191, 36, 0.08); margin: 1em 0; color: rgb(16, 185, 129); font-style: normal; word-wrap: break-word;",
+        "image": "max-width: 100%; height: auto; margin: 1.2em auto; display: block; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);",
+        "link": "color: rgb(16, 185, 129); text-decoration: none; border-bottom: 2px solid rgb(16, 185, 129); transition: all 0.2s ease;",
+        "emphasis": {
+          "strong": "font-weight: 700; color: rgb(17, 24, 39); background: rgba(251, 191, 36, 0.3); padding: 1px 4px;",
+          "em": "font-style: italic; color: rgb(75, 85, 99);",
+          "del": "text-decoration: line-through; color: rgb(156, 163, 175);"
+        },
+        "table": {
+          "container": "width: 100%; margin: 1em 0; border-collapse: collapse; border: 1px solid rgb(229, 231, 235); border-radius: 8px; overflow: hidden;",
+          "header": "background: rgb(243, 244, 246); font-weight: bold; color: rgb(17, 24, 39); border-bottom: 2px solid rgb(229, 231, 235); font-size: 1em;",
+          "cell": "border: 1px solid rgb(229, 231, 235); padding: 12px; color: rgb(75, 85, 99); font-size: 1em;"
+        },
+        "hr": "border: none; border-top: 1px solid rgb(229, 231, 235); margin: 24px 0;",
+        "footnote": {
+          "ref": "color: rgb(16, 185, 129); text-decoration: none; font-size: 0.9em;",
+          "backref": "color: rgb(16, 185, 129); text-decoration: none; font-size: 0.9em;"
+        }
+      },
+      "isPreset": true,
+      "isVisible": true
+    },
+    {
+      "id": "magazine-modern",
+      "name": "现代杂志",
+      "description": "现代编辑风格，主题蓝点缀，简洁专业，科技感",
+      "styles": {
+        "container": "",
+        "title": {
+          "h1": {
+            "base": "margin: 32px 0 16px; font-size: 2.5em; letter-spacing: -0.02em; line-height: 1.2; position: relative; padding-left: 20px;",
+            "content": "font-weight: 700; color: #1f2937; border-left: 6px solid #3B82F6; padding-left: 16px;",
+            "after": ""
+          },
+          "h2": {
+            "base": "margin: 28px 0 12px; font-size: 1.5em; line-height: 1.4;",
+            "content": "font-weight: 700; color: #3B82F6;",
+            "after": ""
+          },
+          "h3": {
+            "base": "margin: 24px 0 10px; font-size: 1.25em; line-height: 1.5;",
+            "content": "font-weight: 600; color: #10B981;",
+            "after": ""
+          },
+          "base": {
+            "base": "margin: 20px 0 8px; font-size: 1.1em; line-height: 1.5;",
+            "content": "font-weight: 600; color: #374151;",
+            "after": ""
+          }
+        },
+        "paragraph": "line-height: 1.8; margin-top: 0; margin-bottom: 24px; font-size: 1em; color: #4b5563; letter-spacing: 0.05em;",
+        "list": {
+          "container": "padding-left: 0; color: #4b5563; list-style: none;",
+          "item": "font-size: 1em; color: #4b5563; line-height: 1.8; margin-bottom: 16px; padding-left: 40px; position: relative;",
+          "taskList": "list-style: none; font-size: 1em; color: #4b5563; line-height: 1.8;"
+        },
+        "code": {
+          "header": {
+            "container": "margin-bottom: 0; display: flex; gap: 6px; padding: 10px 14px; background: rgba(40, 40, 40, 0.85); backdrop-filter: blur(20px) saturate(180%); -webkit-backdrop-filter: blur(20px) saturate(180%); border-radius: 12px 12px 0 0; border: 1px solid rgba(0, 0, 0, 0.1); border-bottom: none;",
+            "dot": "width: 12px; height: 12px; border-radius: 50%;",
+            "colors": [
+              "#ff5f56",
+              "#ffbd2e",
+              "#27c93f"
+            ]
+          },
+          "block": "background: #f5f5f5; color: #333; border-radius: 0 0 12px 12px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04), 0 8px 24px rgba(0, 0, 0, 0.06); border: 1px solid rgba(0, 0, 0, 0.06); border-top: none; margin: 1.2em 0; padding: 20px 18px 16px 18px; overflow-x: auto;",
+          "inline": "background: #EFF6FF; padding: 3px 8px; border-radius: 4px; color: #1E40AF; font-size: 14px; border: none;"
+        },
+        "quote": "border-left: 4px solid #3B82F6; border-radius: 0 8px 8px 0; padding: 16px 20px; background: linear-gradient(135deg, #f8fafc 0%, #EFF6FF 100%); margin: 1.2em 0; color: #374151; font-style: italic; word-wrap: break-word;",
+        "image": "max-width: 100%; height: auto; margin: 1.5em auto; display: block; border-radius: 8px; border: 2px solid rgba(59, 130, 246, 0.3); padding: 4px;",
+        "link": "color: #3B82F6; text-decoration: none; border-bottom: 2px solid #3B82F6; transition: all 0.2s ease;",
+        "emphasis": {
+          "strong": "font-weight: 700; color: #1E40AF;",
+          "em": "font-style: italic; color: #4b5563; background: linear-gradient(180deg, transparent 60%, #FEF3C7 60%);",
+          "del": "text-decoration: line-through; color: #9ca3af;"
+        },
+        "table": {
+          "container": "width: 100%; margin: 1.2em 0; border-collapse: collapse; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.06);",
+          "header": "background: #3B82F6; font-weight: bold; color: #ffffff; font-size: 1em; padding: 12px;",
+          "cell": "border: 1px solid #e5e7eb; padding: 12px; color: #4b5563; font-size: 1em;"
+        },
+        "hr": "border: none; height: 1px; background: linear-gradient(90deg, transparent, #3B82F6, transparent); margin: 32px 0;",
+        "footnote": {
+          "ref": "color: #3B82F6; text-decoration: none; font-size: 0.85em; vertical-align: super;",
+          "backref": "color: #3B82F6; text-decoration: none; font-size: 0.85em;"
+        }
+      },
+      "isPreset": true,
+      "isVisible": true
+    },
+    {
+      "id": "literary-journal",
+      "name": "文艺期刊",
+      "description": "典雅复古，书卷气息，适合人文类内容",
+      "styles": {
+        "container": "",
+        "title": {
+          "h1": {
+            "base": "margin: 40px 0 20px; font-size: 2.2em; letter-spacing: 0.08em; line-height: 1.4; text-align: center;",
+            "content": "font-weight: 700; color: #44403c;",
+            "after": ""
+          },
+          "h2": {
+            "base": "margin: 32px 0 16px; font-size: 1.4em; letter-spacing: 0.05em; line-height: 1.5; border-bottom: 1px solid #d6d3d1; padding-bottom: 8px;",
+            "content": "font-weight: 600; color: #78716c;",
+            "after": ""
+          },
+          "h3": {
+            "base": "margin: 24px 0 12px; font-size: 1.2em; line-height: 1.5;",
+            "content": "font-weight: 600; color: #a8a29e;",
+            "after": ""
+          },
+          "base": {
+            "base": "margin: 20px 0 10px; font-size: 1.1em; line-height: 1.5;",
+            "content": "font-weight: 600; color: #78716c;",
+            "after": ""
+          }
+        },
+        "paragraph": "line-height: 2; margin-top: 0; margin-bottom: 24px; font-size: 1em; color: #57534e; letter-spacing: 0.02em; text-indent: 2em;",
+        "list": {
+          "container": "padding-left: 32px; color: #57534e;",
+          "item": "font-size: 1em; color: #57534e; line-height: 2; margin-bottom: 12px;",
+          "taskList": "list-style: none; font-size: 1em; color: #57534e; line-height: 2;"
+        },
+        "code": {
+          "header": {
+            "container": "margin-bottom: 0; display: flex; gap: 6px; padding: 10px 14px; background: rgba(40, 40, 40, 0.85); backdrop-filter: blur(20px) saturate(180%); -webkit-backdrop-filter: blur(20px) saturate(180%); border-radius: 12px 12px 0 0; border: 1px solid rgba(0, 0, 0, 0.1); border-bottom: none;",
+            "dot": "width: 12px; height: 12px; border-radius: 50%;",
+            "colors": [
+              "#a8a29e",
+              "#d6d3d1",
+              "#78716c"
+            ]
+          },
+          "block": "background: #f5f5f5; color: #333; border-radius: 0 0 12px 12px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04), 0 8px 24px rgba(0, 0, 0, 0.06); border: 1px solid rgba(0, 0, 0, 0.06); border-top: none; margin: 1.2em 0; padding: 20px 18px 16px 18px; overflow-x: auto;",
+          "inline": "background: #fafaf9; padding: 2px 6px; border-radius: 3px; color: #78716c; font-size: 14px; border: 1px solid #e7e5e4;"
+        },
+        "quote": "border-left: 3px solid #78716c; padding: 20px 24px; background: #fafaf9; margin: 1.5em 2em; color: #57534e; font-style: italic; word-wrap: break-word; position: relative;",
+        "image": "max-width: 90%; height: auto; margin: 2em auto; display: block; border-radius: 2px; box-shadow: 0 4px 20px rgba(0,0,0,0.08);",
+        "link": "color: #78716c; text-decoration: none; border-bottom: 1px dashed #a8a29e; transition: all 0.2s ease;",
+        "emphasis": {
+          "strong": "font-weight: 700; color: #44403c;",
+          "em": "font-style: italic; color: #78716c;",
+          "del": "text-decoration: line-through; color: #a8a29e;"
+        },
+        "table": {
+          "container": "width: 90%; margin: 1.5em auto; border-collapse: collapse;",
+          "header": "background: #fafaf9; font-weight: 600; color: #44403c; border-bottom: 2px solid #78716c; font-size: 1em; padding: 12px;",
+          "cell": "border-bottom: 1px solid #e7e5e4; padding: 12px; color: #57534e; font-size: 1em;"
+        },
+        "hr": "border: none; height: 0; border-top: 1px solid #d6d3d1; margin: 40px auto; width: 60%;",
+        "footnote": {
+          "ref": "color: #78716c; text-decoration: none; font-size: 0.85em; vertical-align: super;",
+          "backref": "color: #78716c; text-decoration: none; font-size: 0.85em;"
+        }
+      },
+      "isPreset": true,
+      "isVisible": true
+    },
+    {
+      "id": "forest-green",
+      "name": "自然森系",
+      "description": "柔和大地色系，清新治愈，适合生活类内容",
+      "styles": {
+        "container": "",
+        "title": {
+          "h1": {
+            "base": "margin: 32px 0 16px; font-size: 2.2em; letter-spacing: -0.01em; line-height: 1.3;",
+            "content": "font-weight: 700; color: #166534;",
+            "after": ""
+          },
+          "h2": {
+            "base": "margin: 28px 0 12px; font-size: 1.5em; line-height: 1.4; border-left: 4px solid #86efac; padding-left: 12px;",
+            "content": "font-weight: 600; color: #15803d;",
+            "after": ""
+          },
+          "h3": {
+            "base": "margin: 24px 0 10px; font-size: 1.25em; line-height: 1.5;",
+            "content": "font-weight: 600; color: #22c55e;",
+            "after": ""
+          },
+          "base": {
+            "base": "margin: 20px 0 8px; font-size: 1.1em; line-height: 1.5;",
+            "content": "font-weight: 600; color: #4ade80;",
+            "after": ""
+          }
+        },
+        "paragraph": "line-height: 1.9; margin-top: 0; margin-bottom: 20px; font-size: 1em; color: #57534e;",
+        "list": {
+          "container": "padding-left: 28px; color: #57534e;",
+          "item": "font-size: 1em; color: #57534e; line-height: 1.9; margin-bottom: 10px;",
+          "taskList": "list-style: none; font-size: 1em; color: #57534e; line-height: 1.9;"
+        },
+        "code": {
+          "header": {
+            "container": "margin-bottom: 0; display: flex; gap: 6px; padding: 10px 14px; background: rgba(40, 40, 40, 0.85); backdrop-filter: blur(20px) saturate(180%); -webkit-backdrop-filter: blur(20px) saturate(180%); border-radius: 12px 12px 0 0; border: 1px solid rgba(0, 0, 0, 0.1); border-bottom: none;",
+            "dot": "width: 12px; height: 12px; border-radius: 50%;",
+            "colors": [
+              "#f87171",
+              "#fbbf24",
+              "#4ade80"
+            ]
+          },
+          "block": "background: #f5f5f5; color: #333; border-radius: 0 0 12px 12px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04), 0 8px 24px rgba(0, 0, 0, 0.06); border: 1px solid rgba(0, 0, 0, 0.06); border-top: none; margin: 1.2em 0; padding: 20px 18px 16px 18px; overflow-x: auto;",
+          "inline": "background: #dcfce7; padding: 2px 8px; border-radius: 6px; color: #166534; font-size: 14px; border: none;"
+        },
+        "quote": "border-left: 4px solid #86efac; border-radius: 0 12px 12px 0; padding: 16px 20px; background: linear-gradient(135deg, #f0fdf4 0%, #fefce8 100%); margin: 1.2em 0; color: #57534e; font-style: italic; word-wrap: break-word;",
+        "image": "max-width: 100%; height: auto; margin: 1.5em auto; display: block; border-radius: 16px; box-shadow: 0 4px 20px rgba(34, 197, 94, 0.12);",
+        "link": "color: #16a34a; text-decoration: none; border-bottom: 2px solid #86efac; transition: all 0.2s ease;",
+        "emphasis": {
+          "strong": "font-weight: 700; color: #166534;",
+          "em": "font-style: italic; color: #78716c; background: linear-gradient(180deg, transparent 65%, #fef08a 65%);",
+          "del": "text-decoration: line-through; color: #a8a29e;"
+        },
+        "table": {
+          "container": "width: 100%; margin: 1.2em 0; border-collapse: collapse; border-radius: 12px; overflow: hidden;",
+          "header": "background: #dcfce7; font-weight: 600; color: #166534; font-size: 1em; padding: 12px; border-bottom: 2px solid #86efac;",
+          "cell": "border: 1px solid #bbf7d0; padding: 12px; color: #57534e; font-size: 1em; background: #fefce8;"
+        },
+        "hr": "border: none; height: 2px; background: linear-gradient(90deg, #bbf7d0, #fef08a, #bbf7d0); margin: 28px 0; border-radius: 1px;",
+        "footnote": {
+          "ref": "color: #16a34a; text-decoration: none; font-size: 0.85em; vertical-align: super;",
+          "backref": "color: #16a34a; text-decoration: none; font-size: 0.85em;"
+        }
+      },
+      "isPreset": true,
+      "isVisible": true
+    },
+    {
+      "id": "scheme1",
+      "name": "默认模板",
+      "description": "基于 MD 默认主题（经典主题）转换而来",
+      "styles": {
+        "container": "",
+        "title": {
+          "h1": {
+            "base": "display: table; padding: 0 1em; border-bottom: 2px solid #576b95; margin: 2em auto 1em; color: #24292e; font-size: 1.2em; font-weight: bold; text-align: center;",
+            "content": "",
+            "after": ""
+          },
+          "h2": {
+            "base": "display: table; padding: 0 0.2em; margin: 4em auto 2em; color: #fff; background: #576b95; font-size: 1.2em; font-weight: bold; text-align: center;",
+            "content": "",
+            "after": ""
+          },
+          "h3": {
+            "base": "padding-left: 8px; border-left: 3px solid #576b95; margin: 2em 8px 0.75em 0; color: #24292e; font-size: 1.1em; font-weight: bold; line-height: 1.2;",
+            "content": "",
+            "after": ""
+          },
+          "base": {
+            "base": "margin: 2em 8px 0.5em; color: #576b95; font-size: 1em; font-weight: bold;",
+            "content": "",
+            "after": ""
+          }
+        },
+        "paragraph": "margin: 1.5em 8px; letter-spacing: 0.1em; color: #24292e; font-size: 1em; line-height: 1.8;",
+        "list": {
+          "container": "padding-left: 1em; margin-left: 0; color: #24292e;",
+          "item": "display: block; margin: 0.2em 8px; color: #24292e; font-size: 1em; line-height: 1.8;",
+          "taskList": "display: block; margin: 0.2em 8px; color: #24292e; font-size: 1em; line-height: 1.8; list-style: none;"
+        },
+        "code": {
+          "header": {
+            "container": "margin-bottom: 0; display: flex; gap: 6px; padding: 10px 14px; background: rgba(40, 40, 40, 0.85); backdrop-filter: blur(20px) saturate(180%); -webkit-backdrop-filter: blur(20px) saturate(180%); border-radius: 12px 12px 0 0; border: 1px solid rgba(0, 0, 0, 0.1); border-bottom: none;",
+            "dot": "width: 12px; height: 12px; border-radius: 50%;",
+            "colors": [
+              "#ff5f56",
+              "#ffbd2e",
+              "#27c93f"
+            ]
+          },
+          "block": "background: #f5f5f5; color: #333; border-radius: 0 0 12px 12px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04), 0 8px 24px rgba(0, 0, 0, 0.06); border: 1px solid rgba(0, 0, 0, 0.06); margin; border-top: none; margin: 10px 8px; padding: 1em; font-size: 90%; overflow-x: auto; border-radius: 8px; line-height: 1.5;",
+          "inline": "font-size: 90%; color: #d14; background: rgba(27, 31, 35, 0.05); padding: 3px 5px; border-radius: 4px;"
+        },
+        "quote": "font-style: normal; padding: 1em; border-left: 4px solid #576b95; border-radius: 6px; color: #24292e; background: #f6f8fa; margin: 1em 0;",
+        "image": "display: block; max-width: 100%; margin: 0.1em auto 0.5em; border-radius: 4px;",
+        "link": "color: #576b95; text-decoration: none;",
+        "emphasis": {
+          "strong": "color: #576b95; font-weight: bold; font-size: inherit;",
+          "em": "font-style: italic; font-size: inherit;",
+          "del": "text-decoration: line-through; color: #24292e;"
+        },
+        "table": {
+          "container": "color: #24292e; width: 100%; margin: 1.5em 8px; border-collapse: collapse;",
+          "header": "font-weight: bold; color: #24292e; border: 1px solid #dfdfdf; padding: 0.25em 0.5em; word-break: keep-all; background: rgba(0, 0, 0, 0.05); font-size: 1em;",
+          "cell": "border: 1px solid #dfdfdf; padding: 0.25em 0.5em; color: #24292e; word-break: keep-all; font-size: 1em;"
+        },
+        "hr": "border-style: solid; border-width: 2px 0 0; border-color: rgba(0, 0, 0, 0.1); height: 0.4em; margin: 1.5em 0;",
+        "footnote": {
+          "ref": "color: #576b95; text-decoration: none; font-size: 0.8em;",
+          "backref": "color: #576b95; text-decoration: none; font-size: 0.8em;"
+        }
+      },
+      "isPreset": true,
+      "isVisible": true
+    },
+    {
+      "id": "wechat-default",
+      "name": "默认公众号风格",
+      "description": "来自花生编辑器的经典公众号风格",
+      "styles": {
+        "container": "max-width: 740px; margin: 0 auto; padding: 10px 12px 20px 12px; font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif; font-size: 16px; line-height: 1.8 !important; color: #3f3f3f !important; background-color: #fff !important; word-wrap: break-word;",
+        "title": {
+          "h1": {
+            "base": "font-size: 24px; font-weight: 600; color: #2c3e50 !important; line-height: 1.4 !important; margin: 32px 0 16px; padding-bottom: 8px; border-bottom: 2px solid #3498db;",
+            "content": "",
+            "after": ""
+          },
+          "h2": {
+            "base": "font-size: 22px; font-weight: 600; color: #2c3e50 !important; line-height: 1.4 !important; margin: 28px 0 14px; padding-left: 12px; border-left: 4px solid #3498db;",
+            "content": "",
+            "after": ""
+          },
+          "h3": {
+            "base": "font-size: 20px; font-weight: 600; color: #34495e !important; line-height: 1.4 !important; margin: 24px 0 12px;",
+            "content": "",
+            "after": ""
+          },
+          "base": {
+            "base": "font-size: 18px; font-weight: 600; color: #34495e !important; line-height: 1.4 !important; margin: 20px 0 10px;",
+            "content": "",
+            "after": ""
+          }
+        },
+        "paragraph": "margin: 16px 0 !important; line-height: 1.8 !important; color: #3f3f3f !important;",
+        "list": {
+          "container": "margin: 16px 0; padding-left: 24px;",
+          "item": "margin: 8px 0; line-height: 1.8 !important; color: #3f3f3f !important;",
+          "taskList": "margin: 8px 0; line-height: 1.8 !important; color: #3f3f3f !important; list-style: none;"
+        },
+        "code": {
+          "header": {
+            "container": "margin-bottom: 0; display: flex; gap: 6px; padding: 10px 14px; background: rgba(40, 40, 40, 0.85); backdrop-filter: blur(20px) saturate(180%); -webkit-backdrop-filter: blur(20px) saturate(180%); border-radius: 12px 12px 0 0; border: 1px solid rgba(0, 0, 0, 0.1); border-bottom: none;",
+            "dot": "width: 12px; height: 12px; border-radius: 50%;",
+            "colors": [
+              "#ff5f56",
+              "#ffbd2e",
+              "#27c93f"
+            ]
+          },
+          "block": "background: #f5f5f5; color: #333; border-radius: 0 0 12px 12px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04), 0 8px 24px rgba(0, 0, 0, 0.06); border: 1px solid rgba(0, 0, 0, 0.06); margin; border-top: none; margin: 20px 0; padding: 16px; overflow-x: auto;",
+          "inline": "font-family: Consolas, Monaco, \"Courier New\", monospace; font-size: 14px; padding: 2px 6px; background-color: #f5f5f5 !important; color: #e74c3c !important; border-radius: 3px;"
+        },
+        "quote": "margin: 16px 0; padding: 8px 16px; background-color: #fafafa !important; border-left: 3px solid #999; color: #666 !important; line-height: 1.5 !important;",
+        "image": "max-width: 100%; max-height: 600px !important; height: auto; display: block; margin: 20px auto; border-radius: 8px;",
+        "link": "color: #3498db !important; text-decoration: none; border-bottom: 1px solid #3498db;",
+        "emphasis": {
+          "strong": "font-weight: 600; color: #2c3e50 !important;",
+          "em": "font-style: italic; color: #555 !important;",
+          "del": "text-decoration: line-through; color: #3f3f3f !important;"
+        },
+        "table": {
+          "container": "width: 100%; margin: 20px 0; border-collapse: collapse; font-size: 15px;",
+          "header": "background-color: #f0f0f0 !important; padding: 10px; text-align: left; border: 1px solid #e0e0e0; font-weight: 600;",
+          "cell": "padding: 10px; border: 1px solid #e0e0e0;"
+        },
+        "hr": "margin: 32px 0; border: none; border-top: 1px solid #e0e0e0;",
+        "footnote": {
+          "ref": "color: #3498db !important; text-decoration: none; font-size: 0.8em;",
+          "backref": "color: #3498db !important; text-decoration: none; font-size: 0.8em;"
+        }
+      },
+      "isPreset": true,
+      "isVisible": true
+    },
+    {
+      "id": "latepost-depth",
+      "name": "晚点风格",
+      "description": "深度阅读的专业风格，红色主题",
+      "styles": {
+        "container": "max-width: 700px; margin: 0 auto; padding: 16px 12px 40px 12px; font-family: -apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", sans-serif; font-size: 17px; line-height: 1.8 !important; color: #1a1a1a !important; background-color: #fff !important; word-wrap: break-word;",
+        "title": {
+          "h1": {
+            "base": "font-size: 32px; font-weight: 700; color: #1a1a1a !important; line-height: 1.3 !important; margin: 48px 0 28px; padding-left: 20px; border-left: 6px solid #d32f2f; position: relative;",
+            "content": "",
+            "after": ""
+          },
+          "h2": {
+            "base": "font-size: 24px; font-weight: 600; color: #fff !important; line-height: 1.4 !important; margin: 40px 0 24px; padding: 16px 24px; background-color: #d32f2f !important; border-radius: 4px; position: relative;",
+            "content": "",
+            "after": ""
+          },
+          "h3": {
+            "base": "font-size: 20px; font-weight: 600; color: #d32f2f !important; line-height: 1.5 !important; margin: 35px 0 20px; padding-left: 16px; border-left: 4px solid #d32f2f; position: relative;",
+            "content": "",
+            "after": ""
+          },
+          "base": {
+            "base": "font-size: 18px; font-weight: 600; color: #1a1a1a !important; line-height: 1.5 !important; margin: 30px 0 16px; padding: 8px 12px; background-color: #f5f5f5 !important; border-left: 3px solid #ff5252;",
+            "content": "",
+            "after": ""
+          }
+        },
+        "paragraph": "margin: 20px 0 !important; line-height: 1.9 !important; color: #1a1a1a !important;",
+        "list": {
+          "container": "margin: 24px 0; padding-left: 28px;",
+          "item": "margin: 12px 0; line-height: 1.8 !important; color: #1a1a1a !important;",
+          "taskList": "margin: 12px 0; line-height: 1.8 !important; color: #1a1a1a !important; list-style: none;"
+        },
+        "code": {
+          "header": {
+            "container": "margin-bottom: 0; display: flex; gap: 6px; padding: 10px 14px; background: rgba(40, 40, 40, 0.85); backdrop-filter: blur(20px) saturate(180%); -webkit-backdrop-filter: blur(20px) saturate(180%); border-radius: 12px 12px 0 0; border: 1px solid rgba(0, 0, 0, 0.1); border-bottom: none;",
+            "dot": "width: 12px; height: 12px; border-radius: 50%;",
+            "colors": [
+              "#ff5f56",
+              "#ffbd2e",
+              "#27c93f"
+            ]
+          },
+          "block": "background: #f5f5f5; color: #333; border-radius: 0 0 12px 12px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04), 0 8px 24px rgba(0, 0, 0, 0.06); border: 1px solid rgba(0, 0, 0, 0.06); margin; border-top: none; margin: 28px 0; padding: 20px; overflow-x: auto;",
+          "inline": "font-family: \"SF Mono\", Menlo, Consolas, monospace; font-size: 15px; padding: 3px 8px; background-color: #f5f5f5 !important; color: #d32f2f !important; border-radius: 4px; font-weight: 500;"
+        },
+        "quote": "margin: 24px 0; padding: 14px 20px; background-color: #f5f5f5 !important; border-left: 4px solid #d32f2f; color: #1a1a1a !important; font-size: 16px; line-height: 1.6 !important; position: relative; border-radius: 4px;",
+        "image": "max-width: 100%; max-height: 600px !important; height: auto; display: block; margin: 32px auto; border-radius: 6px; border: 2px solid #d32f2f; box-shadow: 0 4px 12px rgba(211, 47, 47, 0.12);",
+        "link": "color: #d32f2f !important; text-decoration: none; border-bottom: 1px solid #d32f2f;",
+        "emphasis": {
+          "strong": "font-weight: 700; color: #d32f2f !important; background-color: rgba(211, 47, 47, 0.08) !important; padding: 2px 6px; border-radius: 3px;",
+          "em": "font-style: italic; color: #666 !important;",
+          "del": "text-decoration: line-through; color: #1a1a1a !important;"
+        },
+        "table": {
+          "container": "width: 100%; margin: 28px 0; border-collapse: collapse; font-size: 16px; border-radius: 6px; overflow: hidden;",
+          "header": "background-color: #d32f2f !important; color: #fff !important; padding: 12px 16px; text-align: left; font-weight: 600; border: none;",
+          "cell": "padding: 12px 16px; border: none; border-bottom: 1px solid #e0e0e0; color: #1a1a1a !important; background-color: #fff !important;"
+        },
+        "hr": "margin: 40px auto; border: none; height: 2px; background: linear-gradient(to right, transparent, #d32f2f, transparent); max-width: 200px;",
+        "footnote": {
+          "ref": "color: #d32f2f !important; text-decoration: none; font-size: 0.8em;",
+          "backref": "color: #d32f2f !important; text-decoration: none; font-size: 0.8em;"
+        }
+      },
+      "isPreset": true,
+      "isVisible": true
+    },
+    {
+      "id": "wechat-ft",
+      "name": "金融时报",
+      "description": "专业财经媒体风格，衬线字体",
+      "styles": {
+        "container": "max-width: 680px; margin: 0 auto; padding: 16px 20px 40px 20px; font-family: Georgia, \"Times New Roman\", Times, serif; font-size: 17px; line-height: 1.75 !important; color: #33302e !important; background-color: #fff1e5 !important; word-wrap: break-word;",
+        "title": {
+          "h1": {
+            "base": "font-size: 38px; font-weight: 600; color: #000 !important; line-height: 1.2 !important; margin: 56px 0 24px; font-family: Georgia, serif; letter-spacing: -0.01em; border-bottom: 4px solid #990f3d; padding-bottom: 16px;",
+            "content": "",
+            "after": ""
+          },
+          "h2": {
+            "base": "font-size: 30px; font-weight: 600; color: #990f3d !important; line-height: 1.3 !important; margin: 48px 0 20px; font-family: Georgia, serif; border-left: 6px solid #990f3d; padding-left: 20px;",
+            "content": "",
+            "after": ""
+          },
+          "h3": {
+            "base": "font-size: 24px; font-weight: 600; color: #33302e !important; line-height: 1.4 !important; margin: 40px 0 16px; font-family: Georgia, serif; border-bottom: 2px solid #cec6b9; padding-bottom: 8px;",
+            "content": "",
+            "after": ""
+          },
+          "base": {
+            "base": "font-size: 20px; font-weight: 600; color: #33302e !important; line-height: 1.5 !important; margin: 32px 0 12px; font-family: Georgia, serif;",
+            "content": "",
+            "after": ""
+          }
+        },
+        "paragraph": "margin: 20px 0 !important; line-height: 1.75 !important; color: #33302e !important;",
+        "list": {
+          "container": "margin: 24px 0; padding-left: 32px;",
+          "item": "margin: 12px 0; line-height: 1.75 !important; color: #33302e !important;",
+          "taskList": "margin: 12px 0; line-height: 1.75 !important; color: #33302e !important; list-style: none;"
+        },
+        "code": {
+          "header": {
+            "container": "margin-bottom: 0; display: flex; gap: 6px; padding: 10px 14px; background: rgba(40, 40, 40, 0.85); backdrop-filter: blur(20px) saturate(180%); -webkit-backdrop-filter: blur(20px) saturate(180%); border-radius: 12px 12px 0 0; border: 1px solid rgba(0, 0, 0, 0.1); border-bottom: none;",
+            "dot": "width: 12px; height: 12px; border-radius: 50%;",
+            "colors": [
+              "#ff5f56",
+              "#ffbd2e",
+              "#27c93f"
+            ]
+          },
+          "block": "background: #f5f5f5; color: #333; border-radius: 0 0 12px 12px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04), 0 8px 24px rgba(0, 0, 0, 0.06); border: 1px solid rgba(0, 0, 0, 0.06); margin; border-top: none; margin: 28px 0; padding: 24px; overflow-x: auto;",
+          "inline": "font-family: \"Courier New\", Courier, monospace; font-size: 15px; padding: 3px 8px; background-color: #fff !important; color: #990f3d !important; border: 1px solid #cec6b9; font-weight: 600;"
+        },
+        "quote": "margin: 24px 0; padding: 14px 20px; background-color: #fff1e5 !important; color: #990f3d !important; font-size: 17px; line-height: 1.6 !important; font-style: italic; font-family: Georgia, serif; border-left: 6px solid #990f3d; box-shadow: 0 2px 8px rgba(153, 15, 61, 0.1);",
+        "image": "max-width: 100%; max-height: 600px !important; height: auto; display: block; margin: 32px auto; border: 3px solid #990f3d;",
+        "link": "color: #0d7680 !important; text-decoration: none; border-bottom: 2px solid #0d7680; font-weight: 600;",
+        "emphasis": {
+          "strong": "font-weight: 700; color: #990f3d !important;",
+          "em": "font-style: italic; color: #33302e !important;",
+          "del": "text-decoration: line-through; color: #33302e !important;"
+        },
+        "table": {
+          "container": "width: 100%; margin: 32px 0; border-collapse: collapse; font-size: 16px; background-color: #fff !important;",
+          "header": "background-color: #990f3d !important; color: #fff !important; padding: 14px 16px; text-align: left; border: 1px solid #990f3d; font-weight: 700; font-family: Georgia, serif;",
+          "cell": "padding: 14px 16px; border: 1px solid #cec6b9; color: #33302e !important; background-color: #fff !important;"
+        },
+        "hr": "margin: 48px auto; border: none; height: 2px; background-color: #990f3d !important; max-width: 80px;",
+        "footnote": {
+          "ref": "color: #990f3d !important; text-decoration: none; font-size: 0.8em;",
+          "backref": "color: #990f3d !important; text-decoration: none; font-size: 0.8em;"
+        }
+      },
+      "isPreset": true,
+      "isVisible": true
+    },
+    {
+      "id": "wechat-anthropic",
+      "name": "Claude",
+      "description": "Anthropic Claude 风格，温暖渐变色主题",
+      "styles": {
+        "container": "max-width: 700px; margin: 0 auto; padding: 20px 24px 56px 24px; font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", \"Helvetica Neue\", Arial, sans-serif; font-size: 18px; line-height: 1.7 !important; color: #2b2b2b !important; background-color: #faf9f7 !important; word-wrap: break-word; letter-spacing: -0.01em;",
+        "title": {
+          "h1": {
+            "base": "font-size: 48px; font-weight: 600; color: #C15F3C !important; line-height: 1.15 !important; margin: 64px 0 32px; letter-spacing: -0.025em;",
+            "content": "",
+            "after": ""
+          },
+          "h2": {
+            "base": "font-size: 36px; font-weight: 600; color: #C15F3C !important; line-height: 1.25 !important; margin: 56px 0 28px; letter-spacing: -0.02em;",
+            "content": "",
+            "after": ""
+          },
+          "h3": {
+            "base": "font-size: 28px; font-weight: 600; color: #2b2b2b !important; line-height: 1.3 !important; margin: 48px 0 24px; letter-spacing: -0.015em;",
+            "content": "",
+            "after": ""
+          },
+          "base": {
+            "base": "font-size: 24px; font-weight: 600; color: #3a3a3a !important; line-height: 1.4 !important; margin: 40px 0 20px; letter-spacing: -0.01em;",
+            "content": "",
+            "after": ""
+          }
+        },
+        "paragraph": "margin: 32px 0 !important; line-height: 1.75 !important; color: #2b2b2b !important; font-size: 18px; letter-spacing: -0.005em;",
+        "list": {
+          "container": "margin: 32px 0; padding-left: 32px;",
+          "item": "margin: 16px 0; line-height: 1.75 !important; color: #2b2b2b !important; font-size: 18px;",
+          "taskList": "margin: 16px 0; line-height: 1.75 !important; color: #2b2b2b !important; font-size: 18px; list-style: none;"
+        },
+        "code": {
+          "header": {
+            "container": "margin-bottom: 0; display: flex; gap: 6px; padding: 10px 14px; background: rgba(40, 40, 40, 0.85); backdrop-filter: blur(20px) saturate(180%); -webkit-backdrop-filter: blur(20px) saturate(180%); border-radius: 12px 12px 0 0; border: 1px solid rgba(0, 0, 0, 0.1); border-bottom: none;",
+            "dot": "width: 12px; height: 12px; border-radius: 50%;",
+            "colors": [
+              "#ff5f56",
+              "#ffbd2e",
+              "#27c93f"
+            ]
+          },
+          "block": "background: #f5f5f5; color: #333; border-radius: 0 0 12px 12px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04), 0 8px 24px rgba(0, 0, 0, 0.06); border: 1px solid rgba(0, 0, 0, 0.06); margin; border-top: none; margin: 40px 0; padding: 28px; overflow-x: auto;",
+          "inline": "font-family: \"SF Mono\", Consolas, Monaco, monospace; font-size: 16px; padding: 3px 8px; background-color: rgba(193, 95, 60, 0.08) !important; color: #C15F3C !important; border-radius: 8px; font-weight: 500; border: 1px solid rgba(193, 95, 60, 0.15);"
+        },
+        "quote": "margin: 32px 0; padding: 16px 24px; background: linear-gradient(135deg, rgba(193, 95, 60, 0.06) 0%, rgba(157, 200, 141, 0.06) 100%); border-left: 4px solid #C15F3C; color: #2b2b2b !important; font-size: 18px; line-height: 1.55 !important; font-style: italic; border-radius: 8px;",
+        "image": "max-width: 100%; max-height: 600px !important; height: auto; display: block; margin: 48px auto; border-radius: 12px; box-shadow: 0 8px 32px rgba(193, 95, 60, 0.12);",
+        "link": "color: #C15F3C !important; text-decoration: none; border-bottom: 1px solid rgba(193, 95, 60, 0.4); font-weight: 500;",
+        "emphasis": {
+          "strong": "font-weight: 600; color: #C15F3C !important; background-color: rgba(193, 95, 60, 0.08) !important; padding: 2px 6px; border-radius: 3px;",
+          "em": "font-style: italic; color: #5a5a5a !important;",
+          "del": "text-decoration: line-through; color: #2b2b2b !important;"
+        },
+        "table": {
+          "container": "width: 100%; margin: 40px 0; border-collapse: collapse; font-size: 17px; border-radius: 8px; overflow: hidden;",
+          "header": "background: linear-gradient(135deg, rgba(193, 95, 60, 0.08) 0%, rgba(157, 200, 141, 0.08) 100%); padding: 16px 20px; text-align: left; border: none; font-weight: 600; color: #2b2b2b !important; border-bottom: 2px solid rgba(193, 95, 60, 0.2);",
+          "cell": "padding: 16px 20px; border: none; border-bottom: 1px solid rgba(193, 95, 60, 0.1); color: #2b2b2b !important;"
+        },
+        "hr": "margin: 64px auto; border: none; height: 2px; background: linear-gradient(to right, transparent, rgba(193, 95, 60, 0.3), rgba(157, 200, 141, 0.3), transparent); max-width: 240px;",
+        "footnote": {
+          "ref": "color: #C15F3C !important; text-decoration: none; font-size: 0.8em;",
+          "backref": "color: #C15F3C !important; text-decoration: none; font-size: 0.8em;"
+        }
+      },
+      "isPreset": true,
+      "isVisible": true
+    },
+    {
+      "id": "wechat-tech",
+      "name": "技术风格",
+      "description": "程序员最爱的技术博客风格",
+      "styles": {
+        "container": "max-width: 740px; margin: 0 auto; padding: 10px 20px 20px 20px; font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif; font-size: 16px; line-height: 1.75 !important; color: #2c3e50 !important; background-color: #fff !important; word-wrap: break-word;",
+        "title": {
+          "h1": {
+            "base": "font-size: 26px; font-weight: 700; color: #1a1a1a !important; line-height: 1.3 !important; margin: 36px 0 18px; padding: 0 0 12px; border-bottom: 3px solid #0066cc;",
+            "content": "",
+            "after": ""
+          },
+          "h2": {
+            "base": "font-size: 22px; font-weight: 700; color: #1a1a1a !important; line-height: 1.3 !important; margin: 32px 0 16px; padding-left: 16px; padding-top: 4px; padding-bottom: 4px; border-left: 5px solid #00a67d; background: linear-gradient(to right, #f0f9ff 0%, transparent 100%);",
+            "content": "",
+            "after": ""
+          },
+          "h3": {
+            "base": "font-size: 20px; font-weight: 600; color: #2c3e50 !important; line-height: 1.4 !important; margin: 28px 0 14px; padding-left: 12px; border-left: 3px solid #ff9800;",
+            "content": "",
+            "after": ""
+          },
+          "base": {
+            "base": "font-size: 18px; font-weight: 600; color: #34495e !important; line-height: 1.4 !important; margin: 24px 0 12px;",
+            "content": "",
+            "after": ""
+          }
+        },
+        "paragraph": "margin: 18px 0 !important; line-height: 1.8 !important; color: #3a3a3a !important;",
+        "list": {
+          "container": "margin: 18px 0; padding-left: 28px;",
+          "item": "margin: 10px 0; line-height: 1.8 !important; color: #3a3a3a !important;",
+          "taskList": "margin: 10px 0; line-height: 1.8 !important; color: #3a3a3a !important; list-style: none;"
+        },
+        "code": {
+          "header": {
+            "container": "margin-bottom: 0; display: flex; gap: 6px; padding: 10px 14px; background: rgba(40, 40, 40, 0.85); backdrop-filter: blur(20px) saturate(180%); -webkit-backdrop-filter: blur(20px) saturate(180%); border-radius: 12px 12px 0 0; border: 1px solid rgba(0, 0, 0, 0.1); border-bottom: none;",
+            "dot": "width: 12px; height: 12px; border-radius: 50%;",
+            "colors": [
+              "#ff5f56",
+              "#ffbd2e",
+              "#27c93f"
+            ]
+          },
+          "block": "background: #f5f5f5; color: #333; border-radius: 0 0 12px 12px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04), 0 8px 24px rgba(0, 0, 0, 0.06); border: 1px solid rgba(0, 0, 0, 0.06); margin; border-top: none; margin: 24px 0; padding: 20px; overflow-x: auto;",
+          "inline": "font-family: \"Fira Code\", Consolas, Monaco, \"Courier New\", monospace; font-size: 14px; padding: 3px 6px; background-color: #ffe6e6 !important; color: #d63031 !important; border-radius: 8px; font-weight: 500;"
+        },
+        "quote": "margin: 16px 0; padding: 8px 16px; background-color: #f5f9fc !important; border-left: 3px solid #2196f3; color: #555 !important; line-height: 1.5 !important;",
+        "image": "max-width: 100%; max-height: 600px !important; height: auto; display: block; margin: 24px auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);",
+        "link": "color: #0066cc !important; text-decoration: none; border-bottom: 1px solid #0066cc;",
+        "emphasis": {
+          "strong": "font-weight: 700; color: #1a1a1a !important; background-color: #fff3cd !important; padding: 2px 4px; border-radius: 8px;",
+          "em": "font-style: italic; color: #666 !important;",
+          "del": "text-decoration: line-through; color: #3a3a3a !important;"
+        },
+        "table": {
+          "container": "width: 100%; margin: 24px 0; border-collapse: collapse; font-size: 15px; box-shadow: 0 1px 4px rgba(0,0,0,0.1);",
+          "header": "background-color: #0066cc !important; color: #fff !important; padding: 12px; text-align: left; border: 1px solid #0052a3; font-weight: 600;",
+          "cell": "padding: 12px; border: 1px solid #e0e0e0; background-color: #fff !important;"
+        },
+        "hr": "margin: 36px 0; border: none; height: 2px; background: linear-gradient(to right, transparent, #0066cc, transparent);",
+        "footnote": {
+          "ref": "color: #0066cc !important; text-decoration: none; font-size: 0.8em;",
+          "backref": "color: #0066cc !important; text-decoration: none; font-size: 0.8em;"
+        }
+      },
+      "isPreset": true,
+      "isVisible": true
+    },
+    {
+      "id": "wechat-elegant",
+      "name": "优雅简约",
+      "description": "宋体衬线风格，优雅简约",
+      "styles": {
+        "container": "max-width: 720px; margin: 0 auto; padding: 12px 20px 30px 20px; font-family: \"Songti SC\", \"SimSun\", Georgia, serif; font-size: 17px; line-height: 2 !important; color: #333 !important; background-color: #fff !important; word-wrap: break-word;",
+        "title": {
+          "h1": {
+            "base": "font-size: 28px; font-weight: 400; color: #1a1a1a !important; line-height: 1.5 !important; margin: 48px 0 24px; text-align: center; letter-spacing: 2px;",
+            "content": "",
+            "after": ""
+          },
+          "h2": {
+            "base": "font-size: 24px; font-weight: 400; color: #2c2c2c !important; line-height: 1.5 !important; margin: 40px 0 20px; text-align: center; letter-spacing: 1px;",
+            "content": "",
+            "after": ""
+          },
+          "h3": {
+            "base": "font-size: 20px; font-weight: 400; color: #3a3a3a !important; line-height: 1.6 !important; margin: 32px 0 16px; letter-spacing: 0.5px;",
+            "content": "",
+            "after": ""
+          },
+          "base": {
+            "base": "font-size: 18px; font-weight: 400; color: #444 !important; line-height: 1.6 !important; margin: 28px 0 14px;",
+            "content": "",
+            "after": ""
+          }
+        },
+        "paragraph": "margin: 20px 0 !important; line-height: 2.2 !important; color: #444 !important; text-indent: 2em; letter-spacing: 0.5px;",
+        "list": {
+          "container": "margin: 20px 0; padding-left: 32px;",
+          "item": "margin: 12px 0; line-height: 2 !important;",
+          "taskList": "margin: 12px 0; line-height: 2 !important; list-style: none;"
+        },
+        "code": {
+          "header": {
+            "container": "margin-bottom: 0; display: flex; gap: 6px; padding: 10px 14px; background: rgba(40, 40, 40, 0.85); backdrop-filter: blur(20px) saturate(180%); -webkit-backdrop-filter: blur(20px) saturate(180%); border-radius: 12px 12px 0 0; border: 1px solid rgba(0, 0, 0, 0.1); border-bottom: none;",
+            "dot": "width: 12px; height: 12px; border-radius: 50%;",
+            "colors": [
+              "#ff5f56",
+              "#ffbd2e",
+              "#27c93f"
+            ]
+          },
+          "block": "background: #f5f5f5; color: #333; border-radius: 0 0 12px 12px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04), 0 8px 24px rgba(0, 0, 0, 0.06); border: 1px solid rgba(0, 0, 0, 0.06); margin; border-top: none; margin: 28px 0; padding: 20px; overflow-x: auto;",
+          "inline": "font-family: Menlo, Monaco, \"Courier New\", monospace; font-size: 14px; padding: 2px 6px; background-color: #f5f5f5 !important; color: #8b4513 !important; border-radius: 3px;"
+        },
+        "quote": "margin: 20px auto; padding: 10px 20px; background-color: transparent !important; border-left: 2px solid #ccc; color: #666 !important; max-width: 600px; line-height: 1.6 !important;",
+        "image": "max-width: 100%; max-height: 600px !important; height: auto; display: block; margin: 32px auto; border-radius: 8px;",
+        "link": "color: #8b7355 !important; text-decoration: none; border-bottom: 1px dotted #8b7355;",
+        "emphasis": {
+          "strong": "font-weight: 600; color: #1a1a1a !important;",
+          "em": "font-style: italic; color: #666 !important;",
+          "del": "text-decoration: line-through; color: #444 !important;"
+        },
+        "table": {
+          "container": "width: 100%; margin: 28px 0; border-collapse: collapse; font-size: 15px;",
+          "header": "background-color: #f8f8f8 !important; padding: 12px; text-align: left; border-bottom: 2px solid #d0d0d0; font-weight: 400; color: #555 !important;",
+          "cell": "padding: 12px; border-bottom: 1px solid #e5e5e5;"
+        },
+        "hr": "margin: 48px auto; border: none; text-align: center; height: 1px; background-color: #e0e0e0 !important; max-width: 200px;",
+        "footnote": {
+          "ref": "color: #8b7355 !important; text-decoration: none; font-size: 0.8em;",
+          "backref": "color: #8b7355 !important; text-decoration: none; font-size: 0.8em;"
+        }
+      },
+      "isPreset": true,
+      "isVisible": true
+    },
+    {
+      "id": "wechat-deepread",
+      "name": "深度阅读",
+      "description": "适合长文的深度阅读风格",
+      "styles": {
+        "container": "max-width: 680px; margin: 0 auto; padding: 14px 12px 32px 12px; font-family: -apple-system, BlinkMacSystemFont, \"SF Pro Text\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif; font-size: 18px; line-height: 1.75 !important; color: #1a1a1a !important; background-color: #fff !important; word-wrap: break-word; letter-spacing: 0.01em;",
+        "title": {
+          "h1": {
+            "base": "font-size: 32px; font-weight: 700; color: #0a0a0a !important; line-height: 1.2 !important; margin: 48px 0 24px; letter-spacing: -0.02em;",
+            "content": "",
+            "after": ""
+          },
+          "h2": {
+            "base": "font-size: 28px; font-weight: 700; color: #0a0a0a !important; line-height: 1.3 !important; margin: 40px 0 20px; letter-spacing: -0.01em;",
+            "content": "",
+            "after": ""
+          },
+          "h3": {
+            "base": "font-size: 22px; font-weight: 600; color: #1a1a1a !important; line-height: 1.4 !important; margin: 32px 0 16px;",
+            "content": "",
+            "after": ""
+          },
+          "base": {
+            "base": "font-size: 20px; font-weight: 600; color: #2a2a2a !important; line-height: 1.5 !important; margin: 28px 0 14px;",
+            "content": "",
+            "after": ""
+          }
+        },
+        "paragraph": "margin: 24px 0 !important; line-height: 1.8 !important; color: #1a1a1a !important;",
+        "list": {
+          "container": "margin: 24px 0; padding-left: 32px;",
+          "item": "margin: 12px 0; line-height: 1.8 !important; color: #1a1a1a !important;",
+          "taskList": "margin: 12px 0; line-height: 1.8 !important; color: #1a1a1a !important; list-style: none;"
+        },
+        "code": {
+          "header": {
+            "container": "margin-bottom: 0; display: flex; gap: 6px; padding: 10px 14px; background: rgba(40, 40, 40, 0.85); backdrop-filter: blur(20px) saturate(180%); -webkit-backdrop-filter: blur(20px) saturate(180%); border-radius: 12px 12px 0 0; border: 1px solid rgba(0, 0, 0, 0.1); border-bottom: none;",
+            "dot": "width: 12px; height: 12px; border-radius: 50%;",
+            "colors": [
+              "#ff5f56",
+              "#ffbd2e",
+              "#27c93f"
+            ]
+          },
+          "block": "background: #f5f5f5; color: #333; border-radius: 0 0 12px 12px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04), 0 8px 24px rgba(0, 0, 0, 0.06); border: 1px solid rgba(0, 0, 0, 0.06); margin; border-top: none; margin: 32px 0; padding: 24px; overflow-x: auto;",
+          "inline": "font-family: \"SF Mono\", Consolas, Monaco, \"Courier New\", monospace; font-size: 16px; padding: 2px 6px; background-color: #f5f5f5 !important; color: #d73a49 !important; border-radius: 3px;"
+        },
+        "quote": "margin: 24px 0; padding: 14px 20px; background-color: #f8f9fa !important; border-left: 4px solid #0a0a0a; color: #1a1a1a !important; font-size: 16px; line-height: 1.6 !important; font-style: normal;",
+        "image": "max-width: 100%; max-height: 600px !important; height: auto; display: block; margin: 32px auto; border-radius: 8px;",
+        "link": "color: #0066cc !important; text-decoration: none; border-bottom: 1px solid #0066cc;",
+        "emphasis": {
+          "strong": "font-weight: 700; color: #0a0a0a !important;",
+          "em": "font-style: italic; color: #2a2a2a !important;",
+          "del": "text-decoration: line-through; color: #1a1a1a !important;"
+        },
+        "table": {
+          "container": "width: 100%; margin: 32px 0; border-collapse: collapse; font-size: 16px;",
+          "header": "background-color: #f6f8fa !important; padding: 12px 16px; text-align: left; border: 1px solid #e1e4e8; font-weight: 600; color: #1a1a1a !important;",
+          "cell": "padding: 12px 16px; border: 1px solid #e1e4e8; color: #1a1a1a !important;"
+        },
+        "hr": "margin: 48px 0; border: none; height: 1px; background-color: #e1e4e8 !important;",
+        "footnote": {
+          "ref": "color: #0066cc !important; text-decoration: none; font-size: 0.8em;",
+          "backref": "color: #0066cc !important; text-decoration: none; font-size: 0.8em;"
+        }
+      },
+      "isPreset": true,
+      "isVisible": true
+    },
+    {
+      "id": "wechat-nyt",
+      "name": "纽约时报",
+      "description": "经典新闻媒体风格",
+      "styles": {
+        "container": "max-width: 680px; margin: 0 auto; padding: 20px 12px 48px 12px; font-family: Georgia, \"Times New Roman\", Times, serif; font-size: 18px; line-height: 1.8 !important; color: #121212 !important; background-color: #fff !important; word-wrap: break-word;",
+        "title": {
+          "h1": {
+            "base": "font-size: 42px; font-weight: 700; color: #000 !important; line-height: 1.2 !important; margin: 56px 0 16px; font-family: Georgia, serif; letter-spacing: -0.02em; border-bottom: 1px solid #000; padding-bottom: 16px;",
+            "content": "",
+            "after": ""
+          },
+          "h2": {
+            "base": "font-size: 32px; font-weight: 700; color: #000 !important; line-height: 1.3 !important; margin: 48px 0 16px; font-family: Georgia, serif; letter-spacing: -0.01em;",
+            "content": "",
+            "after": ""
+          },
+          "h3": {
+            "base": "font-size: 24px; font-weight: 700; color: #121212 !important; line-height: 1.4 !important; margin: 40px 0 16px; font-family: Georgia, serif;",
+            "content": "",
+            "after": ""
+          },
+          "base": {
+            "base": "font-size: 20px; font-weight: 700; color: #1a1a1a !important; line-height: 1.5 !important; margin: 32px 0 12px; font-family: Georgia, serif;",
+            "content": "",
+            "after": ""
+          }
+        },
+        "paragraph": "margin: 20px 0 !important; line-height: 1.8 !important; color: #121212 !important; text-align: left;",
+        "list": {
+          "container": "margin: 24px 0; padding-left: 40px;",
+          "item": "margin: 12px 0; line-height: 1.8 !important; color: #121212 !important; text-align: left;",
+          "taskList": "margin: 12px 0; line-height: 1.8 !important; color: #121212 !important; text-align: left; list-style: none;"
+        },
+        "code": {
+          "header": {
+            "container": "margin-bottom: 0; display: flex; gap: 6px; padding: 10px 14px; background: rgba(40, 40, 40, 0.85); backdrop-filter: blur(20px) saturate(180%); -webkit-backdrop-filter: blur(20px) saturate(180%); border-radius: 12px 12px 0 0; border: 1px solid rgba(0, 0, 0, 0.1); border-bottom: none;",
+            "dot": "width: 12px; height: 12px; border-radius: 50%;",
+            "colors": [
+              "#ff5f56",
+              "#ffbd2e",
+              "#27c93f"
+            ]
+          },
+          "block": "background: #f5f5f5; color: #333; border-radius: 0 0 12px 12px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04), 0 8px 24px rgba(0, 0, 0, 0.06); border: 1px solid rgba(0, 0, 0, 0.06); margin; border-top: none; margin: 28px 0; padding: 24px; overflow-x: auto;",
+          "inline": "font-family: \"Courier New\", Courier, monospace; font-size: 16px; padding: 2px 6px; background-color: #f0f0f0 !important; color: #666 !important; border: 1px solid #ddd;"
+        },
+        "quote": "margin: 24px 0; padding: 14px 24px; background-color: #f7f7f7 !important; border-left: 5px solid #121212; color: #121212 !important; font-size: 18px; line-height: 1.6 !important; font-style: italic; font-family: Georgia, serif;",
+        "image": "max-width: 100%; max-height: 600px !important; height: auto; display: block; margin: 32px auto; border: 1px solid #ddd;",
+        "link": "color: #326891 !important; text-decoration: none; border-bottom: 1px solid #326891; word-break: break-all;",
+        "emphasis": {
+          "strong": "font-weight: 700; color: #000 !important;",
+          "em": "font-style: italic; color: #121212 !important;",
+          "del": "text-decoration: line-through; color: #121212 !important;"
+        },
+        "table": {
+          "container": "width: 100%; margin: 32px 0; border-collapse: collapse; font-size: 16px; border: 1px solid #ddd;",
+          "header": "background-color: #f7f7f7 !important; padding: 14px 16px; text-align: left; border: 1px solid #ddd; font-weight: 700; color: #121212 !important; font-family: Georgia, serif;",
+          "cell": "padding: 14px 16px; border: 1px solid #ddd; color: #121212 !important;"
+        },
+        "hr": "margin: 48px auto; border: none; height: 1px; background-color: #ddd !important; max-width: 100px;",
+        "footnote": {
+          "ref": "color: #326891 !important; text-decoration: none; font-size: 0.8em;",
+          "backref": "color: #326891 !important; text-decoration: none; font-size: 0.8em;"
+        }
+      },
+      "isPreset": true,
+      "isVisible": true
+    },
+    {
+      "id": "wechat-jonyive",
+      "name": "Jony Ive",
+      "description": "Apple 前设计总监风格，极简主义",
+      "styles": {
+        "container": "max-width: 620px; margin: 0 auto; padding: 16px 24px 40px 24px; font-family: -apple-system, BlinkMacSystemFont, \"SF Pro Display\", \"SF Pro Text\", \"Helvetica Neue\", Arial, sans-serif; font-size: 17px; line-height: 1.6 !important; color: #6e6e73 !important; background-color: #fbfbfd !important; word-wrap: break-word;",
+        "title": {
+          "h1": {
+            "base": "font-size: 39px; font-weight: 200; color: #1d1d1f !important; line-height: 1.15 !important; margin: 48px 0 24px; letter-spacing: -0.025em;",
+            "content": "",
+            "after": ""
+          },
+          "h2": {
+            "base": "font-size: 28px; font-weight: 300; color: #1d1d1f !important; line-height: 1.2 !important; margin: 40px 0 20px; letter-spacing: -0.018em;",
+            "content": "",
+            "after": ""
+          },
+          "h3": {
+            "base": "font-size: 20px; font-weight: 400; color: #1d1d1f !important; line-height: 1.25 !important; margin: 32px 0 16px; letter-spacing: -0.008em;",
+            "content": "",
+            "after": ""
+          },
+          "base": {
+            "base": "font-size: 15px; font-weight: 500; color: #1d1d1f !important; line-height: 1.3 !important; margin: 24px 0 12px;",
+            "content": "",
+            "after": ""
+          }
+        },
+        "paragraph": "margin: 20px 0 !important; line-height: 1.6 !important; color: #6e6e73 !important; font-weight: 300;",
+        "list": {
+          "container": "margin: 20px 0; padding-left: 28px;",
+          "item": "margin: 12px 0; line-height: 1.6 !important; color: #6e6e73 !important; padding-left: 24px; position: relative; font-weight: 300;",
+          "taskList": "margin: 12px 0; line-height: 1.6 !important; color: #6e6e73 !important; padding-left: 24px; position: relative; font-weight: 300; list-style: none;"
+        },
+        "code": {
+          "header": {
+            "container": "margin-bottom: 0; display: flex; gap: 6px; padding: 10px 14px; background: rgba(40, 40, 40, 0.85); backdrop-filter: blur(20px) saturate(180%); -webkit-backdrop-filter: blur(20px) saturate(180%); border-radius: 12px 12px 0 0; border: 1px solid rgba(0, 0, 0, 0.1); border-bottom: none;",
+            "dot": "width: 12px; height: 12px; border-radius: 50%;",
+            "colors": [
+              "#ff5f56",
+              "#ffbd2e",
+              "#27c93f"
+            ]
+          },
+          "block": "background: #f5f5f5; color: #333; border-radius: 0 0 12px 12px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04), 0 8px 24px rgba(0, 0, 0, 0.06); border: 1px solid rgba(0, 0, 0, 0.06); margin; border-top: none; margin: 28px 0; padding: 20px; overflow-x: auto;",
+          "inline": "font-family: \"SF Mono\", Monaco, Menlo, monospace; font-size: 14px; padding: 2px 6px; background-color: #f5f5f7 !important; color: #6e6e73 !important; border-radius: 6px; font-weight: 400;"
+        },
+        "quote": "margin: 32px auto; padding: 0; background-color: transparent !important; border-left: none; color: #1d1d1f !important; font-size: 18px; line-height: 1.4 !important; font-weight: 300; text-align: center; max-width: 520px; font-style: normal;",
+        "image": "max-width: 100%; max-height: 600px !important; height: auto; display: block; margin: 40px auto; border-radius: 10px;",
+        "link": "color: #06c !important; text-decoration: none; font-weight: 400;",
+        "emphasis": {
+          "strong": "font-weight: 500; color: #1d1d1f !important;",
+          "em": "font-style: normal; color: #6e6e73 !important; font-weight: 300;",
+          "del": "text-decoration: line-through; color: #6e6e73 !important;"
+        },
+        "table": {
+          "container": "width: 100%; margin: 32px 0; border-collapse: collapse; font-size: 15px;",
+          "header": "background-color: #f5f5f7 !important; padding: 12px 16px; text-align: left; border: none; font-weight: 500; color: #1d1d1f !important;",
+          "cell": "padding: 12px 16px; border: none; border-top: 1px solid #d2d2d7; color: #6e6e73 !important; font-weight: 300;"
+        },
+        "hr": "margin: 56px auto; border: none; height: 1px; background-color: #d2d2d7 !important; max-width: 48px;",
+        "footnote": {
+          "ref": "color: #06c !important; text-decoration: none; font-size: 0.8em;",
+          "backref": "color: #06c !important; text-decoration: none; font-size: 0.8em;"
+        }
+      },
+      "isPreset": true,
+      "isVisible": true
+    },
+    {
+      "id": "wechat-medium",
+      "name": "Medium 长文",
+      "description": "Medium 平台风格，适合长文阅读",
+      "styles": {
+        "container": "max-width: 680px; margin: 0 auto; padding: 20px 12px 48px 12px; font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif; font-size: 21px; line-height: 1.58 !important; color: #242424 !important; background-color: #fff !important; word-wrap: break-word; letter-spacing: -0.003em;",
+        "title": {
+          "h1": {
+            "base": "font-size: 42px; font-weight: 700; color: #242424 !important; line-height: 1.15 !important; margin: 56px 0 24px; letter-spacing: -0.022em; font-family: Georgia, \"Times New Roman\", serif;",
+            "content": "",
+            "after": ""
+          },
+          "h2": {
+            "base": "font-size: 34px; font-weight: 700; color: #242424 !important; line-height: 1.2 !important; margin: 48px 0 20px; letter-spacing: -0.019em; font-family: Georgia, \"Times New Roman\", serif;",
+            "content": "",
+            "after": ""
+          },
+          "h3": {
+            "base": "font-size: 28px; font-weight: 700; color: #242424 !important; line-height: 1.25 !important; margin: 40px 0 16px; letter-spacing: -0.014em; font-family: Georgia, \"Times New Roman\", serif;",
+            "content": "",
+            "after": ""
+          },
+          "base": {
+            "base": "font-size: 24px; font-weight: 700; color: #242424 !important; line-height: 1.3 !important; margin: 32px 0 12px; font-family: Georgia, \"Times New Roman\", serif;",
+            "content": "",
+            "after": ""
+          }
+        },
+        "paragraph": "margin: 32px 0 !important; line-height: 1.58 !important; color: #242424 !important; font-size: 21px; letter-spacing: -0.003em;",
+        "list": {
+          "container": "margin: 32px 0; padding-left: 40px;",
+          "item": "margin: 16px 0; line-height: 1.58 !important; color: #242424 !important; font-size: 21px;",
+          "taskList": "margin: 16px 0; line-height: 1.58 !important; color: #242424 !important; font-size: 21px; list-style: none;"
+        },
+        "code": {
+          "header": {
+            "container": "margin-bottom: 0; display: flex; gap: 6px; padding: 10px 14px; background: rgba(40, 40, 40, 0.85); backdrop-filter: blur(20px) saturate(180%); -webkit-backdrop-filter: blur(20px) saturate(180%); border-radius: 12px 12px 0 0; border: 1px solid rgba(0, 0, 0, 0.1); border-bottom: none;",
+            "dot": "width: 12px; height: 12px; border-radius: 50%;",
+            "colors": [
+              "#ff5f56",
+              "#ffbd2e",
+              "#27c93f"
+            ]
+          },
+          "block": "background: #f5f5f5; color: #333; border-radius: 0 0 12px 12px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04), 0 8px 24px rgba(0, 0, 0, 0.06); border: 1px solid rgba(0, 0, 0, 0.06); margin; border-top: none; margin: 40px 0; padding: 24px; overflow-x: auto;",
+          "inline": "font-family: Menlo, Monaco, \"Courier New\", monospace; font-size: 18px; padding: 3px 6px; background-color: #f5f5f5 !important; color: #d73a49 !important; border-radius: 3px;"
+        },
+        "quote": "margin: 32px 0; padding: 0 24px; border-left: 3px solid #242424; color: #242424 !important; font-size: 20px; line-height: 1.5 !important; font-style: italic; font-family: Georgia, \"Times New Roman\", serif;",
+        "image": "max-width: 100%; max-height: 600px !important; height: auto; display: block; margin: 40px auto;",
+        "link": "color: #242424 !important; text-decoration: none; border-bottom: 1px solid #242424;",
+        "emphasis": {
+          "strong": "font-weight: 700; color: #242424 !important;",
+          "em": "font-style: italic; color: #242424 !important;",
+          "del": "text-decoration: line-through; color: #242424 !important;"
+        },
+        "table": {
+          "container": "width: 100%; margin: 40px 0; border-collapse: collapse; font-size: 19px;",
+          "header": "background-color: #f7f7f7 !important; padding: 14px 18px; text-align: left; border-bottom: 2px solid #e6e6e6; font-weight: 700; color: #242424 !important;",
+          "cell": "padding: 14px 18px; border-bottom: 1px solid #e6e6e6; color: #242424 !important;"
+        },
+        "hr": "margin: 56px auto; border: none; text-align: center; height: 1px; background-color: #e6e6e6 !important; max-width: 400px;",
+        "footnote": {
+          "ref": "color: #242424 !important; text-decoration: none; font-size: 0.8em; border-bottom: 1px solid #242424;",
+          "backref": "color: #242424 !important; text-decoration: none; font-size: 0.8em; border-bottom: 1px solid #242424;"
+        }
+      },
+      "isPreset": true,
+      "isVisible": true
+    },
+    {
+      "id": "wechat-apple",
+      "name": "Apple 极简",
+      "description": "Apple 官网风格，简洁优雅",
+      "styles": {
+        "container": "max-width: 640px; margin: 0 auto; padding: 20px 12px 48px 12px; font-family: -apple-system, BlinkMacSystemFont, \"SF Pro Display\", \"SF Pro Text\", \"Helvetica Neue\", Arial, sans-serif; font-size: 17px; line-height: 1.6 !important; color: #86868b !important; background-color: #fbfbfd !important; word-wrap: break-word;",
+        "title": {
+          "h1": {
+            "base": "font-size: 48px; font-weight: 600; color: #1d1d1f !important; line-height: 1.1 !important; margin: 48px 0 24px; letter-spacing: -0.015em;",
+            "content": "",
+            "after": ""
+          },
+          "h2": {
+            "base": "font-size: 36px; font-weight: 600; color: #1d1d1f !important; line-height: 1.15 !important; margin: 40px 0 20px; letter-spacing: -0.012em;",
+            "content": "",
+            "after": ""
+          },
+          "h3": {
+            "base": "font-size: 28px; font-weight: 600; color: #1d1d1f !important; line-height: 1.2 !important; margin: 32px 0 16px; letter-spacing: -0.009em;",
+            "content": "",
+            "after": ""
+          },
+          "base": {
+            "base": "font-size: 22px; font-weight: 600; color: #1d1d1f !important; line-height: 1.3 !important; margin: 28px 0 14px;",
+            "content": "",
+            "after": ""
+          }
+        },
+        "paragraph": "margin: 24px 0 !important; line-height: 1.65 !important; color: #86868b !important; font-size: 17px;",
+        "list": {
+          "container": "margin: 24px 0; padding-left: 28px;",
+          "item": "margin: 16px 0; line-height: 1.6 !important; color: #86868b !important; padding-left: 28px; position: relative;",
+          "taskList": "margin: 16px 0; line-height: 1.6 !important; color: #86868b !important; padding-left: 28px; position: relative; list-style: none;"
+        },
+        "code": {
+          "header": {
+            "container": "margin-bottom: 0; display: flex; gap: 6px; padding: 10px 14px; background: rgba(40, 40, 40, 0.85); backdrop-filter: blur(20px) saturate(180%); -webkit-backdrop-filter: blur(20px) saturate(180%); border-radius: 12px 12px 0 0; border: 1px solid rgba(0, 0, 0, 0.1); border-bottom: none;",
+            "dot": "width: 12px; height: 12px; border-radius: 50%;",
+            "colors": [
+              "#ff5f56",
+              "#ffbd2e",
+              "#27c93f"
+            ]
+          },
+          "block": "background: #f5f5f5; color: #333; border-radius: 0 0 12px 12px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04), 0 8px 24px rgba(0, 0, 0, 0.06); border: 1px solid rgba(0, 0, 0, 0.06); margin; border-top: none; margin: 32px 0; padding: 24px; overflow-x: auto;",
+          "inline": "font-family: \"SF Mono\", Monaco, Menlo, monospace; font-size: 15px; padding: 2px 6px; background-color: #f5f5f7 !important; color: #86868b !important; border-radius: 8px;"
+        },
+        "quote": "margin: 32px auto; padding: 0; background-color: transparent !important; border-left: none; color: #1d1d1f !important; font-size: 20px; line-height: 1.4 !important; font-weight: 600; text-align: center; max-width: 560px; font-style: normal;",
+        "image": "max-width: 100%; max-height: 600px !important; height: auto; display: block; margin: 32px auto; border-radius: 12px;",
+        "link": "color: #06c !important; text-decoration: none;",
+        "emphasis": {
+          "strong": "font-weight: 600; color: #1d1d1f !important;",
+          "em": "font-style: normal; color: #86868b !important;",
+          "del": "text-decoration: line-through; color: #86868b !important;"
+        },
+        "table": {
+          "container": "width: 100%; margin: 32px 0; border-collapse: collapse; font-size: 15px;",
+          "header": "background-color: #f5f5f7 !important; padding: 14px 20px; text-align: left; border: none; font-weight: 600; color: #1d1d1f !important;",
+          "cell": "padding: 14px 20px; border: none; border-top: 1px solid #d2d2d7; color: #86868b !important;"
+        },
+        "hr": "margin: 48px auto; border: none; height: 1px; background-color: #d2d2d7 !important; max-width: 48px;",
+        "footnote": {
+          "ref": "color: #06c !important; text-decoration: none; font-size: 0.8em;",
+          "backref": "color: #06c !important; text-decoration: none; font-size: 0.8em;"
+        }
+      },
+      "isPreset": true,
+      "isVisible": true
+    },
+    {
+      "id": "kenya-emptiness",
+      "name": "原研哉·空",
+      "description": "日式极简风格，大量留白",
+      "styles": {
+        "container": "max-width: 640px; margin: 0 auto; padding: 28px 24px 80px 24px; font-family: \"Hiragino Sans\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif; font-size: 16px; line-height: 2.5 !important; color: #333 !important; background-color: #fff !important; word-wrap: break-word;",
+        "title": {
+          "h1": {
+            "base": "font-size: 24px; font-weight: 300; color: #000 !important; line-height: 2 !important; margin: 80px 0 60px; letter-spacing: 0.5em; text-align: center; padding: 0;",
+            "content": "",
+            "after": ""
+          },
+          "h2": {
+            "base": "font-size: 18px; font-weight: 300; color: #333 !important; line-height: 2 !important; margin: 70px 0 40px; letter-spacing: 0.3em; padding-left: 40px;",
+            "content": "",
+            "after": ""
+          },
+          "h3": {
+            "base": "font-size: 16px; font-weight: 400; color: #666 !important; line-height: 2 !important; margin: 60px 0 30px; letter-spacing: 0.2em;",
+            "content": "",
+            "after": ""
+          },
+          "base": {
+            "base": "font-size: 15px; font-weight: 400; color: #999 !important; line-height: 2 !important; margin: 40px 0 20px; letter-spacing: 0.1em;",
+            "content": "",
+            "after": ""
+          }
+        },
+        "paragraph": "margin: 40px 0 !important; line-height: 2.5 !important; color: #666 !important; letter-spacing: 0.05em;",
+        "list": {
+          "container": "margin: 60px 0; padding-left: 32px;",
+          "item": "margin: 30px 0; line-height: 2.5 !important; color: #666 !important; padding-left: 40px; position: relative;",
+          "taskList": "margin: 30px 0; line-height: 2.5 !important; color: #666 !important; padding-left: 40px; position: relative; list-style: none;"
+        },
+        "code": {
+          "header": {
+            "container": "margin-bottom: 0; display: flex; gap: 6px; padding: 10px 14px; background: rgba(40, 40, 40, 0.85); backdrop-filter: blur(20px) saturate(180%); -webkit-backdrop-filter: blur(20px) saturate(180%); border-radius: 12px 12px 0 0; border: 1px solid rgba(0, 0, 0, 0.1); border-bottom: none;",
+            "dot": "width: 12px; height: 12px; border-radius: 50%;",
+            "colors": [
+              "#ff5f56",
+              "#ffbd2e",
+              "#27c93f"
+            ]
+          },
+          "block": "background: #f5f5f5; color: #333; border-radius: 0 0 12px 12px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04), 0 8px 24px rgba(0, 0, 0, 0.06); border: 1px solid rgba(0, 0, 0, 0.06); margin; border-top: none; margin: 50px 0; padding: 48px 40px 40px 40px; overflow-x: auto;",
+          "inline": "font-family: \"SF Mono\", Menlo, monospace; font-size: 13px; padding: 4px 8px; background-color: #f5f5f5 !important; color: #666 !important; border-radius: 2px;"
+        },
+        "quote": "margin: 40px auto; padding: 0; background-color: transparent !important; border: none; color: #999 !important; font-size: 14px; line-height: 2.2 !important; text-align: center; max-width: 480px; letter-spacing: 0.2em;",
+        "image": "max-width: 100%; max-height: 500px !important; height: auto; display: block; margin: 60px auto;",
+        "link": "color: #999 !important; text-decoration: none; border-bottom: 1px solid #e0e0e0; padding-bottom: 2px;",
+        "emphasis": {
+          "strong": "font-weight: 500; color: #000 !important; letter-spacing: 0.1em;",
+          "em": "font-style: normal; color: #999 !important; font-size: 14px;",
+          "del": "text-decoration: line-through; color: #666 !important;"
+        },
+        "table": {
+          "container": "width: 100%; margin: 60px 0; border-collapse: collapse; font-size: 14px;",
+          "header": "background-color: transparent !important; padding: 20px; text-align: left; border-bottom: 1px solid #e0e0e0; font-weight: 400; color: #999 !important;",
+          "cell": "padding: 20px; border-bottom: 1px solid #f5f5f5; color: #666 !important;"
+        },
+        "hr": "margin: 80px auto; border: none; width: 40px; height: 1px; background-color: #e0e0e0 !important;",
+        "footnote": {
+          "ref": "color: #999 !important; text-decoration: none; font-size: 0.8em; border-bottom: 1px solid #e0e0e0; padding-bottom: 2px;",
+          "backref": "color: #999 !important; text-decoration: none; font-size: 0.8em; border-bottom: 1px solid #e0e0e0; padding-bottom: 2px;"
+        }
+      },
+      "isPreset": true,
+      "isVisible": true
+    },
+    {
+      "id": "hische-editorial",
+      "name": "Hische·编辑部",
+      "description": "经典杂志编辑部风格",
+      "styles": {
+        "container": "max-width: 700px; margin: 0 auto; padding: 24px 20px 70px 20px; font-family: \"Crimson Text\", Garamond, serif; font-size: 19px; line-height: 1.75 !important; color: #2c2c2c !important; background-color: #fffef9 !important; word-wrap: break-word;",
+        "title": {
+          "h1": {
+            "base": "font-size: 52px; font-weight: 400; color: #c9302c !important; line-height: 1.15 !important; margin: 70px 0 35px; letter-spacing: -0.03em; font-family: \"Bodoni MT\", \"Didot\", serif; text-align: center;",
+            "content": "",
+            "after": ""
+          },
+          "h2": {
+            "base": "font-size: 38px; font-weight: 400; color: #2c2c2c !important; line-height: 1.25 !important; margin: 60px 0 30px; letter-spacing: -0.02em; font-family: \"Bodoni MT\", \"Didot\", serif; border-top: 1px solid #c9302c; border-bottom: 1px solid #c9302c; padding: 15px 0; text-align: center;",
+            "content": "",
+            "after": ""
+          },
+          "h3": {
+            "base": "font-size: 30px; font-weight: 400; color: #2c2c2c !important; line-height: 1.35 !important; margin: 50px 0 25px; font-family: \"Bodoni MT\", \"Didot\", serif;",
+            "content": "",
+            "after": ""
+          },
+          "base": {
+            "base": "font-size: 24px; font-weight: 600; color: #2c2c2c !important; line-height: 1.4 !important; margin: 40px 0 20px; text-transform: uppercase; letter-spacing: 0.05em; font-size: 18px;",
+            "content": "",
+            "after": ""
+          }
+        },
+        "paragraph": "margin: 28px 0 !important; line-height: 1.75 !important; color: #2c2c2c !important; text-align: justify;",
+        "list": {
+          "container": "margin: 35px 0; padding-left: 25px;",
+          "item": "margin: 12px 0; line-height: 1.75 !important; color: #2c2c2c !important;",
+          "taskList": "margin: 12px 0; line-height: 1.75 !important; color: #2c2c2c !important; list-style: none;"
+        },
+        "code": {
+          "header": {
+            "container": "margin-bottom: 0; display: flex; gap: 6px; padding: 10px 14px; background: rgba(40, 40, 40, 0.85); backdrop-filter: blur(20px) saturate(180%); -webkit-backdrop-filter: blur(20px) saturate(180%); border-radius: 12px 12px 0 0; border: 1px solid rgba(0, 0, 0, 0.1); border-bottom: none;",
+            "dot": "width: 12px; height: 12px; border-radius: 50%;",
+            "colors": [
+              "#ff5f56",
+              "#ffbd2e",
+              "#27c93f"
+            ]
+          },
+          "block": "background: #f5f5f5; color: #333; border-radius: 0 0 12px 12px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04), 0 8px 24px rgba(0, 0, 0, 0.06); border: 1px solid rgba(0, 0, 0, 0.06); margin; border-top: none; margin: 40px 0; padding: 30px; overflow-x: auto;",
+          "inline": "font-family: \"Courier Prime\", monospace; font-size: 17px; padding: 2px 6px; background-color: #f9f9f9 !important; color: #c9302c !important; border: 1px solid #e0e0e0;"
+        },
+        "quote": "margin: 32px 0; padding: 0 32px; background-color: transparent !important; border-left: none; color: #2c2c2c !important; font-size: 20px; line-height: 1.5 !important; font-style: italic; text-align: center; font-family: \"Bodoni MT\", \"Didot\", serif;",
+        "image": "max-width: 100%; max-height: 600px !important; height: auto; display: block; margin: 45px auto; border: 1px solid #e0e0e0;",
+        "link": "color: #c9302c !important; text-decoration: none; border-bottom: 1px solid #c9302c;",
+        "emphasis": {
+          "strong": "font-weight: 700; color: #c9302c !important; letter-spacing: 0.02em;",
+          "em": "font-style: italic; color: #2c2c2c !important;",
+          "del": "text-decoration: line-through; color: #2c2c2c !important;"
+        },
+        "table": {
+          "container": "width: 100%; margin: 40px 0; border-collapse: collapse; font-size: 17px;",
+          "header": "background-color: #f9f9f9 !important; padding: 15px; text-align: left; border-top: 2px solid #c9302c; border-bottom: 2px solid #c9302c; font-weight: 700; color: #2c2c2c !important; text-transform: uppercase; letter-spacing: 0.05em; font-size: 14px;",
+          "cell": "padding: 15px; border-bottom: 1px solid #e0e0e0; color: #2c2c2c !important;"
+        },
+        "hr": "margin: 70px auto; border: none; height: 1px; background-color: #c9302c !important; max-width: 100px;",
+        "footnote": {
+          "ref": "color: #c9302c !important; text-decoration: none; font-size: 0.8em;",
+          "backref": "color: #c9302c !important; text-decoration: none; font-size: 0.8em;"
+        }
+      },
+      "isPreset": true,
+      "isVisible": true
+    },
+    {
+      "id": "ando-concrete",
+      "name": "安藤·清水",
+      "description": "安藤忠雄建筑风格，清水混凝土美学",
+      "styles": {
+        "container": "max-width: 600px; margin: 0 auto; padding: 20px 24px 80px 24px; font-family: \"Helvetica Neue\", Arial, sans-serif; font-size: 16px; line-height: 2 !important; color: #4a4a4a !important; background-color: #fff !important; word-wrap: break-word;",
+        "title": {
+          "h1": {
+            "base": "font-size: 28px; font-weight: 300; color: #1a1a1a !important; line-height: 1.5 !important; margin: 60px 0 50px; padding-bottom: 30px; border-bottom: 1px solid #d0d0d0; letter-spacing: 0.2em; text-transform: uppercase;",
+            "content": "",
+            "after": ""
+          },
+          "h2": {
+            "base": "font-size: 20px; font-weight: 400; color: #2a2a2a !important; line-height: 1.6 !important; margin: 70px 0 40px; padding: 20px 0; border-top: 1px solid #e0e0e0; border-bottom: 1px solid #e0e0e0; letter-spacing: 0.15em; background-color: #fafafa !important;",
+            "content": "",
+            "after": ""
+          },
+          "h3": {
+            "base": "font-size: 17px; font-weight: 400; color: #3a3a3a !important; line-height: 1.7 !important; margin: 50px 0 30px; letter-spacing: 0.1em;",
+            "content": "",
+            "after": ""
+          },
+          "base": {
+            "base": "font-size: 16px; font-weight: 500; color: #4a4a4a !important; line-height: 1.8 !important; margin: 50px 0 25px; letter-spacing: 0.05em;",
+            "content": "",
+            "after": ""
+          }
+        },
+        "paragraph": "margin: 35px 0 !important; line-height: 2 !important; color: #4a4a4a !important; text-align: justify;",
+        "list": {
+          "container": "margin: 50px 0; padding-left: 32px;",
+          "item": "margin: 25px 0; line-height: 2 !important; color: #4a4a4a !important; padding-left: 30px; position: relative;",
+          "taskList": "margin: 25px 0; line-height: 2 !important; color: #4a4a4a !important; padding-left: 30px; position: relative; list-style: none;"
+        },
+        "code": {
+          "header": {
+            "container": "margin-bottom: 0; display: flex; gap: 6px; padding: 10px 14px; background: rgba(40, 40, 40, 0.85); backdrop-filter: blur(20px) saturate(180%); -webkit-backdrop-filter: blur(20px) saturate(180%); border-radius: 12px 12px 0 0; border: 1px solid rgba(0, 0, 0, 0.1); border-bottom: none;",
+            "dot": "width: 12px; height: 12px; border-radius: 50%;",
+            "colors": [
+              "#ff5f56",
+              "#ffbd2e",
+              "#27c93f"
+            ]
+          },
+          "block": "background: #f5f5f5; color: #333; border-radius: 0 0 12px 12px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04), 0 8px 24px rgba(0, 0, 0, 0.06); border: 1px solid rgba(0, 0, 0, 0.06); margin; border-top: none; margin: 60px 0; padding: 48px 40px 40px 40px; overflow-x: auto;",
+          "inline": "font-family: \"Courier New\", Courier, monospace; font-size: 14px; padding: 3px 8px; background-color: #f0f0f0 !important; color: #4a4a4a !important; border: 1px solid #d0d0d0;"
+        },
+        "quote": "margin: 40px 0; padding: 20px 24px; background-color: #ffffff !important; border: 1px solid #d0d0d0; color: #3a3a3a !important; font-size: 15px; line-height: 1.8 !important; letter-spacing: 0.05em; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);",
+        "image": "max-width: 100%; max-height: 500px !important; height: auto; display: block; margin: 50px auto; filter: grayscale(20%); opacity: 0.95;",
+        "link": "color: #4a4a4a !important; text-decoration: none; border-bottom: 1px solid #b0b0b0; padding-bottom: 1px;",
+        "emphasis": {
+          "strong": "font-weight: 600; color: #1a1a1a !important; letter-spacing: 0.05em;",
+          "em": "font-style: normal; color: #6a6a6a !important; letter-spacing: 0.05em; font-weight: 300;",
+          "del": "text-decoration: line-through; color: #4a4a4a !important;"
+        },
+        "table": {
+          "container": "width: 100%; margin: 60px 0; border-collapse: collapse; font-size: 14px; border: 1px solid #d0d0d0;",
+          "header": "background-color: #f8f8f8 !important; padding: 20px; text-align: left; border: 1px solid #d0d0d0; font-weight: 400; color: #2a2a2a !important; letter-spacing: 0.1em; text-transform: uppercase;",
+          "cell": "padding: 20px; border: 1px solid #e0e0e0; color: #4a4a4a !important; background-color: #fff !important;"
+        },
+        "hr": "margin: 60px auto; border: none; width: 60px; height: 1px; background-color: #c0c0c0 !important;",
+        "footnote": {
+          "ref": "color: #4a4a4a !important; text-decoration: none; font-size: 0.8em; border-bottom: 1px solid #b0b0b0; padding-bottom: 1px;",
+          "backref": "color: #4a4a4a !important; text-decoration: none; font-size: 0.8em; border-bottom: 1px solid #b0b0b0; padding-bottom: 1px;"
+        }
+      },
+      "isPreset": true,
+      "isVisible": true
+    },
+    {
+      "id": "gaudi-organic",
+      "name": "高迪·有机",
+      "description": "高迪建筑风格，色彩斑斓的有机美学",
+      "styles": {
+        "container": "max-width: 700px; margin: 0 auto; padding: 20px 24px 60px 24px; font-family: \"Baskerville\", \"Georgia\", serif; font-size: 18px; line-height: 1.8 !important; color: #3d2914 !important; background-color: #fff5e6 !important; word-wrap: break-word;",
+        "title": {
+          "h1": {
+            "base": "font-size: 52px; font-weight: 700; line-height: 1.2 !important; margin: 70px 0 35px; text-align: center; letter-spacing: -0.02em; position: relative; padding: 20px;",
+            "content": "background: linear-gradient(45deg, #ff6b6b, #ffd93d, #6bcf7f, #4ecdc4, #5b86e5, #a55eea); -webkit-background-clip: text; background-clip: text; color: transparent !important;",
+            "after": ""
+          },
+          "h2": {
+            "base": "font-size: 38px; font-weight: 600; line-height: 1.3 !important; margin: 60px 0 30px; text-align: center; position: relative; padding: 15px 30px; background: radial-gradient(ellipse at center, rgba(192, 57, 43, 0.08) 0%, transparent 70%); border-radius: 50% 20% / 10% 40%;",
+            "content": "color: #c0392b !important;",
+            "after": ""
+          },
+          "h3": {
+            "base": "font-size: 28px; font-weight: 600; line-height: 1.4 !important; margin: 50px 0 25px; padding-left: 35px; position: relative; border-left: 5px wavy #27ae60;",
+            "content": "color: #27ae60 !important;",
+            "after": ""
+          },
+          "base": {
+            "base": "font-size: 22px; font-weight: 600; line-height: 1.5 !important; margin: 40px 0 20px; padding: 10px 20px; background: linear-gradient(90deg, rgba(41, 128, 185, 0.1) 0%, transparent 50%); border-radius: 100px 0 100px 0;",
+            "content": "color: #2980b9 !important;",
+            "after": ""
+          }
+        },
+        "paragraph": "margin: 30px 0 !important; line-height: 1.9 !important; color: #3d2914 !important; text-indent: 2em;",
+        "list": {
+          "container": "margin: 35px 0; padding-left: 32px;",
+          "item": "margin: 20px 0; line-height: 1.8 !important; color: #3d2914 !important; padding: 15px 25px 15px 45px; background: linear-gradient(90deg, rgba(255, 193, 7, 0.1) 0%, transparent 30%); border-radius: 30px 60px 120px 30px / 120px 30px 60px 30px;",
+          "taskList": "margin: 20px 0; line-height: 1.8 !important; color: #3d2914 !important; padding: 15px 25px 15px 45px; background: linear-gradient(90deg, rgba(255, 193, 7, 0.1) 0%, transparent 30%); border-radius: 30px 60px 120px 30px / 120px 30px 60px 30px; list-style: none;"
+        },
+        "code": {
+          "header": {
+            "container": "margin-bottom: 0; display: flex; gap: 6px; padding: 10px 14px; background: rgba(40, 40, 40, 0.85); backdrop-filter: blur(20px) saturate(180%); -webkit-backdrop-filter: blur(20px) saturate(180%); border-radius: 12px 12px 0 0; border: 1px solid rgba(0, 0, 0, 0.1); border-bottom: none;",
+            "dot": "width: 12px; height: 12px; border-radius: 50%;",
+            "colors": [
+              "#ff5f56",
+              "#ffbd2e",
+              "#27c93f"
+            ]
+          },
+          "block": "background: #f5f5f5; color: #333; border-radius: 0 0 12px 12px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04), 0 8px 24px rgba(0, 0, 0, 0.06); border: 1px solid rgba(0, 0, 0, 0.06); margin; border-top: none; margin: 45px 0; padding: 42px 35px 35px 35px; overflow-x: auto;",
+          "inline": "font-family: \"Courier New\", Courier, monospace; font-size: 16px; padding: 4px 10px; background: linear-gradient(45deg, rgba(255, 107, 107, 0.2), rgba(255, 217, 61, 0.2)); color: #c0392b !important; border-radius: 50% / 30%; font-weight: 600;"
+        },
+        "quote": "margin: 32px auto; padding: 20px 28px; background: radial-gradient(circle at top left, rgba(255, 107, 107, 0.1) 0%, rgba(109, 207, 127, 0.1) 25%, rgba(78, 205, 196, 0.1) 50%, rgba(91, 134, 229, 0.1) 75%, rgba(165, 94, 234, 0.1) 100%); border: 3px solid transparent; border-image: linear-gradient(45deg, #ff6b6b, #ffd93d, #6bcf7f, #4ecdc4, #5b86e5, #a55eea) 1; border-radius: 50% 20% / 10% 40%; color: #3d2914 !important; font-size: 18px; line-height: 1.6 !important; font-style: italic; text-align: center; max-width: 600px;",
+        "image": "max-width: 100%; max-height: 600px !important; height: auto; display: block; margin: 50px auto; border-radius: 12px; box-shadow: 0 10px 25px rgba(255, 193, 7, 0.15); border: 2px solid #ffd93d;",
+        "link": "color: #2980b9 !important; text-decoration: none; border-bottom: 2px wavy #2980b9; position: relative;",
+        "emphasis": {
+          "strong": "font-weight: 700; color: #c0392b !important; background: linear-gradient(180deg, transparent 60%, rgba(192, 57, 43, 0.2) 60%); padding: 2px 4px;",
+          "em": "font-style: italic; color: #27ae60 !important; font-weight: 500;",
+          "del": "text-decoration: line-through; color: #3d2914 !important;"
+        },
+        "table": {
+          "container": "width: 100%; margin: 45px 0; border-collapse: separate; border-spacing: 5px; font-size: 16px;",
+          "header": "background: linear-gradient(45deg, #ff6b6b 0%, #ffd93d 100%); color: #fff !important; padding: 18px; text-align: left; font-weight: 600; border-radius: 15px 15px 0 0; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);",
+          "cell": "padding: 15px; background: linear-gradient(135deg, rgba(255, 193, 7, 0.1) 0%, rgba(109, 207, 127, 0.1) 100%); color: #3d2914 !important; border-radius: 10px;"
+        },
+        "hr": "margin: 70px auto; border: none; height: 30px; background: url(\"data:image/svg+xml,%3Csvg width='100' height='30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0,15 Q25,0 50,15 T100,15' stroke='%23c0392b' stroke-width='2' fill='none'/%3E%3C/svg%3E\") repeat-x center; background-size: 100px 30px; max-width: 300px;",
+        "footnote": {
+          "ref": "color: #2980b9 !important; text-decoration: none; font-size: 0.8em; border-bottom: 2px wavy #2980b9;",
+          "backref": "color: #2980b9 !important; text-decoration: none; font-size: 0.8em; border-bottom: 2px wavy #2980b9;"
+        }
+      },
+      "isPreset": true,
+      "isVisible": true
+    }
+  ],
+  "customTemplates": [],
+  "backgrounds": [
+    {
+      "id": "grid",
+      "name": "网格",
+      "style": "box-sizing: border-box; margin: 0; padding: 0; background-image: linear-gradient(90deg, rgba(50, 0, 0, 0.03) 2%, rgba(0, 0, 0, 0) 2%), linear-gradient(360deg, rgba(50, 0, 0, 0.03) 2%, rgba(0, 0, 0, 0) 2%); background-size: 20px 20px; background-position: center center;",
+      "isPreset": true,
+      "isVisible": true
+    },
+    {
+      "id": "crosshatch",
+      "name": "交叉",
+      "style": "box-sizing: border-box; margin: 0; padding: 0; background-image: repeating-linear-gradient(45deg, rgba(50, 0, 0, 0.02) 0, rgba(50, 0, 0, 0.02) 1px, transparent 1px, transparent 50%), repeating-linear-gradient(-45deg, rgba(50, 0, 0, 0.02) 0, rgba(50, 0, 0, 0.02) 1px, transparent 1px, transparent 50%); background-size: 20px 20px;",
+      "isPreset": true,
+      "isVisible": true
+    },
+    {
+      "id": "dots",
+      "name": "圆点",
+      "style": "box-sizing: border-box; margin: 0; padding: 0; background-image: radial-gradient(rgba(50, 0, 0, 0.03) 1px, transparent 1px); background-size: 20px 20px; background-position: center center;",
+      "isPreset": true,
+      "isVisible": true
+    },
+    {
+      "id": "dash",
+      "name": "虚线",
+      "style": "box-sizing: border-box; margin: 0; padding: 0;  background-image: linear-gradient(90deg, rgba(50, 0, 0, 0.03) 50%, transparent 50%); background-size: 8px 1px; background-position: center center;",
+      "isPreset": true,
+      "isVisible": true
+    },
+    {
+      "id": "wave",
+      "name": "波浪",
+      "style": "box-sizing: border-box; margin: 0; padding: 0;  background-image: linear-gradient(45deg, rgba(50, 0, 0, 0.04) 12%, transparent 12%, transparent 88%, rgba(50, 0, 0, 0.04) 88%), linear-gradient(135deg, rgba(50, 0, 0, 0.04) 12%, transparent 12%, transparent 88%, rgba(50, 0, 0, 0.04) 88%), linear-gradient(45deg, rgba(50, 0, 0, 0.04) 12%, transparent 12%, transparent 88%, rgba(50, 0, 0, 0.04) 88%), linear-gradient(135deg, rgba(50, 0, 0, 0.04) 12%, transparent 12%, transparent 88%, rgba(50, 0, 0, 0.04) 88%); background-size: 30px 30px; background-position: 0 0, 0 0, 15px 15px, 15px 15px;",
+      "isPreset": true,
+      "isVisible": true
+    },
+    {
+      "id": "checkerboard",
+      "name": "棋盘",
+      "style": "box-sizing: border-box; margin: 0; padding: 0;  background-image: linear-gradient(45deg, rgba(50, 0, 0, 0.04) 25%, transparent 25%), linear-gradient(-45deg, rgba(50, 0, 0, 0.04) 25%, transparent 25%), linear-gradient(45deg, transparent 75%, rgba(50, 0, 0, 0.04) 75%), linear-gradient(-45deg, transparent 75%, rgba(50, 0, 0, 0.04) 75%); background-size: 20px 20px; background-position: 0 0, 0 10px, 10px -10px, -10px 0px;",
+      "isPreset": true,
+      "isVisible": true
+    }
+  ],
+  "customBackgrounds": [],
+  "customFonts": [
+    {
+      "value": "Optima-Regular, Optima, PingFangSC-light, PingFangTC-light, \"PingFang SC\", Cambria, Cochin, Georgia, Times, \"Times New Roman\", serif",
+      "label": "默认字体",
+      "isPreset": true
+    },
+    {
+      "value": "SimSun, \"宋体\", serif",
+      "label": "宋体",
+      "isPreset": true
+    },
+    {
+      "value": "SimHei, \"黑体\", sans-serif",
+      "label": "黑体",
+      "isPreset": true
+    },
+    {
+      "value": "KaiTi, \"楷体\", serif",
+      "label": "楷体",
+      "isPreset": true
+    },
+    {
+      "value": "\"Microsoft YaHei\", \"微软雅黑\", sans-serif",
+      "label": "雅黑",
+      "isPreset": true
+    }
+  ]
+}
