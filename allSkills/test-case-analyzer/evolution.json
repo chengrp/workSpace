@@ -1,0 +1,75 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2026-02-28",
+  "patterns": {
+    "ecommerce": {
+      "订单超时": {
+        "missed_scenarios": [
+          "边界值：29分59秒支付",
+          "并发：支付与关闭同时发生",
+          "异常：服务器重启场景",
+          "配置：不同超时时长验证"
+        ],
+        "auto_add": true,
+        "priority_keywords": ["订单", "超时", "关闭", "支付"]
+      },
+      "库存管理": {
+        "missed_scenarios": [
+          "并发：多个用户同时购买同一商品",
+          "边界：库存为0时的处理",
+          "异常：库存扣减失败后的回滚"
+        ],
+        "auto_add": true,
+        "priority_keywords": ["库存", "商品", "购买"]
+      },
+      "支付流程": {
+        "missed_scenarios": [
+          "异常：支付超时",
+          "异常：支付回调失败",
+          "并发：重复支付",
+          "边界：金额精确度"
+        ],
+        "auto_add": true,
+        "priority_keywords": ["支付", "金额", "回调"]
+      }
+    },
+    "finance": {
+      "转账": {
+        "missed_scenarios": [
+          "边界：金额边界值（0.01、最大金额）",
+          "异常：余额不足",
+          "并发：同时转账",
+          "安全：验证转账限额"
+        ],
+        "auto_add": true,
+        "priority_keywords": ["转账", "金额", "余额"]
+      }
+    },
+    "general": {
+      "用户权限": {
+        "missed_scenarios": [
+          "边界：权限边界",
+          "异常：角色切换时的权限",
+          "安全：越权访问测试"
+        ],
+        "auto_add": true,
+        "priority_keywords": ["权限", "角色", "访问"]
+      },
+      "状态流转": {
+        "missed_scenarios": [
+          "异常：非法状态转换",
+          "边界：状态终态",
+          "回归：状态变更影响其他功能"
+        ],
+        "auto_add": true,
+        "priority_keywords": ["状态", "流转", "变更"]
+      }
+    }
+  },
+  "user_corrections": [],
+  "learned_insights": {
+    "timing_analysis": "时间相关需求需确认：计时单位、计时起点、实现方式、并发处理",
+    "state_analysis": "状态相关需求需确认：状态机定义、状态转换规则、非法状态处理",
+    "concurrency_analysis": "并发相关需求需确认：锁机制、事务隔离、数据一致性保证"
+  }
+}
