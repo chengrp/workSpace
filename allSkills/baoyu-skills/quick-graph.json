@@ -1,0 +1,183 @@
+{
+  "nodes": [
+    {
+      "id": "f_SKILL",
+      "label": "SKILL.md",
+      "type": "file",
+      "path": "baoyu-article-illustrator\\SKILL.md"
+    },
+    {
+      "id": "f_system",
+      "label": "system.md",
+      "type": "file",
+      "path": "baoyu-article-illustrator\\prompts\\system.md"
+    },
+    {
+      "id": "f_prompt-construction",
+      "label": "prompt-construction.md",
+      "type": "file",
+      "path": "baoyu-article-illustrator\\references\\prompt-construction.md"
+    },
+    {
+      "id": "f_styles",
+      "label": "styles.md",
+      "type": "file",
+      "path": "baoyu-article-illustrator\\references\\styles.md"
+    },
+    {
+      "id": "f_usage",
+      "label": "usage.md",
+      "type": "file",
+      "path": "baoyu-article-illustrator\\references\\usage.md"
+    },
+    {
+      "id": "f_workflow",
+      "label": "workflow.md",
+      "type": "file",
+      "path": "baoyu-article-illustrator\\references\\workflow.md"
+    },
+    {
+      "id": "f_first-time-setup",
+      "label": "first-time-setup.md",
+      "type": "file",
+      "path": "baoyu-article-illustrator\\references\\config\\first-time-setup.md"
+    },
+    {
+      "id": "f_preferences-schema",
+      "label": "preferences-schema.md",
+      "type": "file",
+      "path": "baoyu-article-illustrator\\references\\config\\preferences-schema.md"
+    },
+    {
+      "id": "f_blueprint",
+      "label": "blueprint.md",
+      "type": "file",
+      "path": "baoyu-article-illustrator\\references\\styles\\blueprint.md"
+    },
+    {
+      "id": "f_chalkboard",
+      "label": "chalkboard.md",
+      "type": "file",
+      "path": "baoyu-article-illustrator\\references\\styles\\chalkboard.md"
+    },
+    {
+      "id": "f_editorial",
+      "label": "editorial.md",
+      "type": "file",
+      "path": "baoyu-article-illustrator\\references\\styles\\editorial.md"
+    },
+    {
+      "id": "f_elegant",
+      "label": "elegant.md",
+      "type": "file",
+      "path": "baoyu-article-illustrator\\references\\styles\\elegant.md"
+    },
+    {
+      "id": "f_fantasy-animation",
+      "label": "fantasy-animation.md",
+      "type": "file",
+      "path": "baoyu-article-illustrator\\references\\styles\\fantasy-animation.md"
+    },
+    {
+      "id": "f_flat-doodle",
+      "label": "flat-doodle.md",
+      "type": "file",
+      "path": "baoyu-article-illustrator\\references\\styles\\flat-doodle.md"
+    },
+    {
+      "id": "f_flat",
+      "label": "flat.md",
+      "type": "file",
+      "path": "baoyu-article-illustrator\\references\\styles\\flat.md"
+    },
+    {
+      "id": "f_intuition-machine",
+      "label": "intuition-machine.md",
+      "type": "file",
+      "path": "baoyu-article-illustrator\\references\\styles\\intuition-machine.md"
+    },
+    {
+      "id": "f_minimal",
+      "label": "minimal.md",
+      "type": "file",
+      "path": "baoyu-article-illustrator\\references\\styles\\minimal.md"
+    },
+    {
+      "id": "f_nature",
+      "label": "nature.md",
+      "type": "file",
+      "path": "baoyu-article-illustrator\\references\\styles\\nature.md"
+    },
+    {
+      "id": "f_notion",
+      "label": "notion.md",
+      "type": "file",
+      "path": "baoyu-article-illustrator\\references\\styles\\notion.md"
+    },
+    {
+      "id": "f_pixel-art",
+      "label": "pixel-art.md",
+      "type": "file",
+      "path": "baoyu-article-illustrator\\references\\styles\\pixel-art.md"
+    },
+    {
+      "id": "f_playful",
+      "label": "playful.md",
+      "type": "file",
+      "path": "baoyu-article-illustrator\\references\\styles\\playful.md"
+    },
+    {
+      "id": "f_retro",
+      "label": "retro.md",
+      "type": "file",
+      "path": "baoyu-article-illustrator\\references\\styles\\retro.md"
+    },
+    {
+      "id": "f_scientific",
+      "label": "scientific.md",
+      "type": "file",
+      "path": "baoyu-article-illustrator\\references\\styles\\scientific.md"
+    },
+    {
+      "id": "f_sketch-notes",
+      "label": "sketch-notes.md",
+      "type": "file",
+      "path": "baoyu-article-illustrator\\references\\styles\\sketch-notes.md"
+    },
+    {
+      "id": "f_sketch",
+      "label": "sketch.md",
+      "type": "file",
+      "path": "baoyu-article-illustrator\\references\\styles\\sketch.md"
+    },
+    {
+      "id": "f_vector-illustration",
+      "label": "vector-illustration.md",
+      "type": "file",
+      "path": "baoyu-article-illustrator\\references\\styles\\vector-illustration.md"
+    },
+    {
+      "id": "f_vintage",
+      "label": "vintage.md",
+      "type": "file",
+      "path": "baoyu-article-illustrator\\references\\styles\\vintage.md"
+    },
+    {
+      "id": "f_warm",
+      "label": "warm.md",
+      "type": "file",
+      "path": "baoyu-article-illustrator\\references\\styles\\warm.md"
+    },
+    {
+      "id": "f_watercolor",
+      "label": "watercolor.md",
+      "type": "file",
+      "path": "baoyu-article-illustrator\\references\\styles\\watercolor.md"
+    }
+  ],
+  "edges": [],
+  "stats": {
+    "nodes": 29,
+    "edges": 0
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "sources": [
+    {
+      "id": "36kr",
+      "name": "36氪",
+      "url": "https://36kr.com/feed",
+      "type": "rss",
+      "enabled": true,
+      "limit": 20,
+      "priority": 1
+    },
+    {
+      "id": "huxiu",
+      "name": "虎嗅",
+      "url": "https://www.huxiu.com/rss/0.xml",
+      "type": "rss",
+      "enabled": true,
+      "limit": 20,
+      "priority": 1
+    },
+    {
+      "id": "latepost",
+      "name": "晚点LatePost",
+      "url": "https://www.latepost.com/feed",
+      "type": "rss",
+      "enabled": true,
+      "limit": 15,
+      "priority": 2
+    },
+    {
+      "id": "jiemian",
+      "name": "界面新闻",
+      "url": "https://www.jiemian.com/rss/news.xml",
+      "type": "rss",
+      "enabled": true,
+      "limit": 20,
+      "priority": 1
+    },
+    {
+      "id": "tmtpost",
+      "name": "钛媒体",
+      "url": "https://www.tmtpost.com/rss.xml",
+      "type": "rss",
+      "enabled": true,
+      "limit": 15,
+      "priority": 2
+    },
+    {
+      "id": "pinwan",
+      "name": "品玩",
+      "url": "https://www.pingwest.com/feed",
+      "type": "rss",
+      "enabled": true,
+      "limit": 15,
+      "priority": 2
+    },
+    {
+      "id": "ifanr",
+      "name": "爱范儿",
+      "url": "https://www.ifanr.com/feed",
+      "type": "rss",
+      "enabled": true,
+      "limit": 15,
+      "priority": 2
+    },
+    {
+      "id": "geekpark",
+      "name": "极客公园",
+      "url": "https://www.geekpark.net/rss",
+      "type": "rss",
+      "enabled": true,
+      "limit": 10,
+      "priority": 3
+    },
+    {
+      "id": "cyzone",
+      "name": "创业邦",
+      "url": "https://www.cyzone.cn/rss",
+      "type": "rss",
+      "enabled": true,
+      "limit": 15,
+      "priority": 2
+    }
+  ],
+  "fallback_sources": [
+    {
+      "id": "reuters-china",
+      "name": "路透社中国",
+      "url": "https://cn.reuters.com/rssFeed/CNTopGenNews",
+      "type": "rss",
+      "enabled": true,
+      "limit": 10,
+      "priority": 3
+    },
+    {
+      "id": "bbc-chinese",
+      "name": "BBC中文",
+      "url": "https://www.bbc.com/zhongwen/simp/index.xml",
+      "type": "rss",
+      "enabled": false,
+      "limit": 10,
+      "priority": 4
+    }
+  ]
+}

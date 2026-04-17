@@ -1,0 +1,77 @@
+================================================================================
+信息图：当智能不再稀缺，我们正站在哪一扇门前面？
+风格：坐标蓝图·波普实验室 (Blueprint Pop Lab)
+================================================================================
+
+【STYLE DESCRIPTION】
+实验室精密手册感 + 波普实验风格，技术图纸与荧光色的碰撞
+
+【COLOR PALETTE】
+- BACKGROUND: #F2F2F2 (Professional grayish-white with blueprint grid texture)
+- BASE COLORS: #B8D8BE (Muted Teal/Sage Green)
+- ACCENT COLORS: #E91E63 (Vibrant Fluorescent Pink), #FFF200 (Vivid Lemon Yellow), #2D2926 (Ultra-fine Charcoal Brown)
+
+【LAYOUT & INFORMATION DENSITY】
+- INFORMATION AS COORDINATES: 每个模块都有坐标标签 (e.g., A-01, B-05, C-12)
+- HIGH DENSITY: 每张图 7 个模块，最小化边距
+- VISUAL CONTRAST: 超大粗体标题 vs 极小技术注释
+- LAB MANUAL AESTHETIC: 显微细节 + 宏观数据的混合
+
+【7个核心模块】
+
+[A-01: IBM警告]
+- 2月23日 IBM股价暴跌13%
+- 市值蒸发310亿美元
+- 依赖"人"交付的服务正在失效
+- 认知劳动边际成本 → 0
+
+[A-02: 六把刀砍向旧世界]
+1. DAU失效 - AI时代DAU是负债（推理成本）
+2. 平台路径断裂 - AI直接给结果，不需要社区
+3. SaaS崩塌 - 2B/2C → 2A (to Agent)
+4. "AI应用"概念错误 - 不要服务人，服务Agent
+5. 注意力经济终结 - 追求效率而非停留时长
+6. 出海无意义 - Agent的世界没有海
+
+[A-03: 奇点已过]
+- 智能可无限生产，也可无限消费
+- 过去：200美金 = CEO和大学生能力差距<200
+- 现在：重度用户月耗>1000美金
+- 智能边际生产成本 → 0
+- 纯认知劳动者价值 → 0
+
+[A-04: 算力三层社会]
+第一层：算力拥有者（全球<1000人）
+- 掌握模型/芯片/能源/数据
+- 定义规则和Token价格
+
+第二层：算力驱动者
+- 驱动上百个Agent并行探索
+- 产出 = 过去中型公司
+
+第三层：算力依附者
+- 舒适但不自由
+- 权力结构被边缘化
+
+[A-05: 权力结构重组]
+- 正反馈：算力↑ → 结果↑ → 收入↑ → 算力↑
+- 劳动者议价权↓ → Agent威胁
+- 财富向算力拥有者集中
+
+[A-06: 软件世界静默转向]
+- Obsidian CLI → 给Agent用的接口
+- EvoMap → AI积累经验、持续进化
+- 传统应用 → 为Agent开发接口
+- Agent迭代加剧 → 差距指数扩大
+
+[A-07: 普通人的5条出路]
+1. 重新审视"可替代性" - 定位价值创造点
+2. 把Agent协作变成核心能力
+3. 关注能源和算力分布
+4. 创业做"新世界基建" - Agent原生基础设施
+5. 教育重心转移 - 欲望/想象力/定义问题能力
+
+【STYLE KEYWORDS】
+technical, blueprint, laboratory, coordinates, precision, industrial design, high-density
+
+================================================================================

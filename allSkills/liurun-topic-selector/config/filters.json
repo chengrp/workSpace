@@ -1,0 +1,21 @@
+{
+  "time_filters": {
+    "max_hours": 48,
+    "strict_mode": true
+  },
+  "relevance_filters": {
+    "min_keyword_matches": 1,
+    "boost_multiplier": 2
+  },
+  "quality_filters": {
+    "min_title_length": 10,
+    "max_title_length": 200,
+    "require_summary": false,
+    "exclude_duplicates": true
+  },
+  "output_limits": {
+    "max_total_events": 20,
+    "max_deep_analysis": 10,
+    "max_recommendations": 3
+  }
+}

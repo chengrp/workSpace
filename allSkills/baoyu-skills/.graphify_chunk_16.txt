@@ -1,0 +1,11 @@
+skills\baoyu-xhs-images\references\presets\cute.md
+skills\baoyu-xhs-images\references\presets\fresh.md
+skills\baoyu-xhs-images\references\presets\minimal.md
+skills\baoyu-xhs-images\references\presets\notion.md
+skills\baoyu-xhs-images\references\presets\pop.md
+skills\baoyu-xhs-images\references\presets\retro.md
+skills\baoyu-xhs-images\references\presets\study-notes.md
+skills\baoyu-xhs-images\references\presets\warm.md
+skills\baoyu-xhs-images\references\workflows\analysis-framework.md
+skills\baoyu-xhs-images\references\workflows\outline-template.md
+skills\baoyu-xhs-images\references\workflows\prompt-assembly.md

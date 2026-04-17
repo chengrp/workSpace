@@ -1,0 +1,26 @@
+{
+  "skill": "info-graphic",
+  "test_prompts": [
+    {
+      "id": 1,
+      "type": "happy_path",
+      "prompt": "生成一个关于「时间管理四象限法」的信息图，适合小红书发布",
+      "expected": "应该询问用户选择风格，推荐合适的风格选项，然后生成包含四象限法核心内容的高质量信息图",
+      "dimensions": ["工作流清晰度", "指令具体性", "实测表现"]
+    },
+    {
+      "id": 2,
+      "type": "complex",
+      "prompt": "用文件夹风格生成「PARA 信息管理法则」信息图，包含 Projects、Areas、Resources、Archives 四个分类的定义、判断标准和示例",
+      "expected": "应该使用文件夹风格（ID:3），生成包含 7 个模块的信息图，涵盖 PARA 四分类的核心内容，保持中文输出",
+      "dimensions": ["边界条件覆盖", "检查点设计", "实测表现"]
+    },
+    {
+      "id": 3,
+      "type": "ambiguous",
+      "prompt": "帮我做个信息图",
+      "expected": "应该主动询问主题、目标平台、特殊要求，而不是直接生成",
+      "dimensions": ["边界条件覆盖", "检查点设计"]
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "name": "liurun-topic-selector",
+  "description": "刘润公众号选题智能体 - 研究中国市场重大事件，生成深度选题建议和写作角度",
+  "version": "1.0.0",
+  "author": "Claude Code",
+  "created": "2026-02-28",
+  "tags": ["选题", "商业分析", "新闻", "写作"]
+}

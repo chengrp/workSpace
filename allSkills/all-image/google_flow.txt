@@ -1,0 +1,67 @@
+
+# all-image Google AI Flow
+
++-----------------+
+|   User Request  |
++-------+---------+
+        |
+        v
++-----------------+
+|  ImageGenerator |
++-------+---------+
+        |
+        v
++-------+---------+
+|     Router      |
+| (Select Google) |
++-------+---------+
+        |
+        v
++-----------------+
+| GoogleAIProvider|
++-------+---------+
+        |
++-------v---------+
+| validate_request|
+| (Check required)|
++-------+---------+
+        |
++-------v---------+
+|  build_prompt   |
+| (Add aspect rat)|
++-------+---------+
+        |
++-------v---------+
+|build_request_body
+| {contents:...}  |
++-------+---------+
+        |
+        v
++-----------------+
+|  urllib request |<--+ (Uses HTTP_PROXY/HTTPS_PROXY env vars)
++-------+---------+   |
+        |             |
+        v             |
++-----------------+   |
+| Google AI Cloud |   |
+| (Gemini/Imagen) |   |
++-------+---------+   |
+        |             |
++-------v---------+   |
+|   Response      |   |
+| {candidates:..} |   |
++-------+---------+   |
+        |             |
++-------v---------+   |
+|  parse_result   |   |
+| (Extract Base64)|   |
++-------+---------+   |
+        |             |
++-------v---------+   |
+|   Save Image    |---+
++-------+---------+
+        |
+        v
++-----------------+
+|   ImageResult   |
++-----------------+

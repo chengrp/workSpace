@@ -1,0 +1,226 @@
+{
+  "nodes": [
+    {
+      "id": "f_0",
+      "label": "SKILL.md",
+      "type": "file",
+      "path": "SKILL.md"
+    },
+    {
+      "id": "f_1",
+      "label": "system.md",
+      "type": "file",
+      "path": "prompts\\system.md"
+    },
+    {
+      "id": "f_2",
+      "label": "prompt-construction.md",
+      "type": "file",
+      "path": "references\\prompt-construction.md"
+    },
+    {
+      "id": "f_3",
+      "label": "styles.md",
+      "type": "file",
+      "path": "references\\styles.md"
+    },
+    {
+      "id": "f_4",
+      "label": "usage.md",
+      "type": "file",
+      "path": "references\\usage.md"
+    },
+    {
+      "id": "f_5",
+      "label": "workflow.md",
+      "type": "file",
+      "path": "references\\workflow.md"
+    },
+    {
+      "id": "f_6",
+      "label": "first-time-setup.md",
+      "type": "file",
+      "path": "references\\config\\first-time-setup.md"
+    },
+    {
+      "id": "f_7",
+      "label": "preferences-schema.md",
+      "type": "file",
+      "path": "references\\config\\preferences-schema.md"
+    },
+    {
+      "id": "f_8",
+      "label": "blueprint.md",
+      "type": "file",
+      "path": "references\\styles\\blueprint.md"
+    },
+    {
+      "id": "f_9",
+      "label": "chalkboard.md",
+      "type": "file",
+      "path": "references\\styles\\chalkboard.md"
+    },
+    {
+      "id": "f_10",
+      "label": "editorial.md",
+      "type": "file",
+      "path": "references\\styles\\editorial.md"
+    },
+    {
+      "id": "f_11",
+      "label": "elegant.md",
+      "type": "file",
+      "path": "references\\styles\\elegant.md"
+    },
+    {
+      "id": "f_12",
+      "label": "fantasy-animation.md",
+      "type": "file",
+      "path": "references\\styles\\fantasy-animation.md"
+    },
+    {
+      "id": "f_13",
+      "label": "flat-doodle.md",
+      "type": "file",
+      "path": "references\\styles\\flat-doodle.md"
+    },
+    {
+      "id": "f_14",
+      "label": "flat.md",
+      "type": "file",
+      "path": "references\\styles\\flat.md"
+    },
+    {
+      "id": "f_15",
+      "label": "intuition-machine.md",
+      "type": "file",
+      "path": "references\\styles\\intuition-machine.md"
+    },
+    {
+      "id": "f_16",
+      "label": "minimal.md",
+      "type": "file",
+      "path": "references\\styles\\minimal.md"
+    },
+    {
+      "id": "f_17",
+      "label": "nature.md",
+      "type": "file",
+      "path": "references\\styles\\nature.md"
+    },
+    {
+      "id": "f_18",
+      "label": "notion.md",
+      "type": "file",
+      "path": "references\\styles\\notion.md"
+    },
+    {
+      "id": "f_19",
+      "label": "pixel-art.md",
+      "type": "file",
+      "path": "references\\styles\\pixel-art.md"
+    },
+    {
+      "id": "f_20",
+      "label": "playful.md",
+      "type": "file",
+      "path": "references\\styles\\playful.md"
+    },
+    {
+      "id": "f_21",
+      "label": "retro.md",
+      "type": "file",
+      "path": "references\\styles\\retro.md"
+    },
+    {
+      "id": "f_22",
+      "label": "scientific.md",
+      "type": "file",
+      "path": "references\\styles\\scientific.md"
+    },
+    {
+      "id": "f_23",
+      "label": "sketch-notes.md",
+      "type": "file",
+      "path": "references\\styles\\sketch-notes.md"
+    },
+    {
+      "id": "f_24",
+      "label": "sketch.md",
+      "type": "file",
+      "path": "references\\styles\\sketch.md"
+    },
+    {
+      "id": "f_25",
+      "label": "vector-illustration.md",
+      "type": "file",
+      "path": "references\\styles\\vector-illustration.md"
+    },
+    {
+      "id": "f_26",
+      "label": "vintage.md",
+      "type": "file",
+      "path": "references\\styles\\vintage.md"
+    },
+    {
+      "id": "f_27",
+      "label": "warm.md",
+      "type": "file",
+      "path": "references\\styles\\warm.md"
+    },
+    {
+      "id": "f_28",
+      "label": "watercolor.md",
+      "type": "file",
+      "path": "references\\styles\\watercolor.md"
+    }
+  ],
+  "edges": [
+    {
+      "from": "f_0",
+      "to": "f_3",
+      "label": "references",
+      "type": "EXTRACTED"
+    },
+    {
+      "from": "f_0",
+      "to": "f_5",
+      "label": "references",
+      "type": "EXTRACTED"
+    },
+    {
+      "from": "f_0",
+      "to": "f_2",
+      "label": "references",
+      "type": "EXTRACTED"
+    },
+    {
+      "from": "f_0",
+      "to": "f_6",
+      "label": "references",
+      "type": "EXTRACTED"
+    },
+    {
+      "from": "f_0",
+      "to": "f_4",
+      "label": "references",
+      "type": "EXTRACTED"
+    },
+    {
+      "from": "f_5",
+      "to": "f_2",
+      "label": "references",
+      "type": "EXTRACTED"
+    },
+    {
+      "from": "f_5",
+      "to": "f_6",
+      "label": "references",
+      "type": "EXTRACTED"
+    }
+  ],
+  "stats": {
+    "nodes": 29,
+    "edges": 7
+  }
+}
